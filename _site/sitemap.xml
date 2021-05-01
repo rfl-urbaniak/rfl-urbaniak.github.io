@@ -31,6 +31,9 @@
 <loc>http://localhost:4000/docs/menu/about.html</loc>
 </url>
 <url>
+<loc>http://localhost:4000/menu/blog.html</loc>
+</url>
+<url>
 <loc>http://localhost:4000/menu/contact.html</loc>
 </url>
 <url>
@@ -41,9 +44,6 @@
 </url>
 <url>
 <loc>http://localhost:4000/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/menu/writing.html</loc>
 </url>
 <url>
 <loc>http://localhost:4000/docs/menu/writing.html</loc>
