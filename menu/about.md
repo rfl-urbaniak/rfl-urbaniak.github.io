@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Welcome to Lagrange!
+title: About
 ---
 
 Update the `menu/about.md` file to change your About page.
