@@ -32,6 +32,10 @@ pagination:
 post_date_prefix: 'Written on'
 
 
+plugins:
+  - jekyll-toc
+
+
 ---
 layout: home
 title: Home
