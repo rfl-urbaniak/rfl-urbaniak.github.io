@@ -17,14 +17,10 @@ title: Projects
 - Visualisation of marginal probabilities.
 - Some mathematical background explained.
 
-Solarized blah             |  Solarized Ocean
-:-------------------------:|:-------------------------:
-![](images/SCpriors.jpeg)  |  ![](images/SCposterior.jpeg)
-
 
 <p float="left">
   <img src="images/SCpriors.jpeg" width="100" />
-  <img src="images/SCposterior.jpeg" width="100" /> 
+  <img src="images/SCposterior.jpeg" width="100" />
 </p>
 
 
