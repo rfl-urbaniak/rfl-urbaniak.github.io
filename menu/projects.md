@@ -22,6 +22,11 @@ Solarized blah             |  Solarized Ocean
 ![](images/SCpriors.jpeg)  |  ![](images/SCposterior.jpeg)
 
 
+<p float="left">
+  <img src="images/SCpriors.jpeg" width="100" />
+  <img src="images/SCposterior.jpeg" width="100" /> 
+</p>
+
 
 <img src="https://rfl-urbaniak.github.io/images/SCpriors.jpeg" width="100%" style="display: block; margin: auto;" />
 
