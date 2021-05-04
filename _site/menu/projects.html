@@ -5,7 +5,7 @@
 
   <title>
     
-      Your Site Name | <br> (Mostly) bayesian data analysis with a philosophical twist</br>
+      Projects | Your Site Name
     
   </title>
 
@@ -48,18 +48,18 @@
 
   <!-- Use Jekyll SEO plugin -->
   <!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Home | Your Site Name</title>
+<title>Projects | Your Site Name</title>
 <meta name="generator" content="Jekyll v3.6.3" />
-<meta property="og:title" content="Home" />
+<meta property="og:title" content="Projects" />
 <meta name="author" content="Rafal Urbaniak" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="(Mostly) bayesian data analysis with a philosophical twist&lt;/br&gt;" />
 <meta property="og:description" content="(Mostly) bayesian data analysis with a philosophical twist&lt;/br&gt;" />
-<link rel="canonical" href="http://localhost:4000/docs/" />
-<meta property="og:url" content="http://localhost:4000/docs/" />
+<link rel="canonical" href="http://localhost:4000/menu/projects.html" />
+<meta property="og:url" content="http://localhost:4000/menu/projects.html" />
 <meta property="og:site_name" content="Your Site Name" />
 <script type="application/ld+json">
-{"headline":"Home","url":"http://localhost:4000/docs/","@type":"WebPage","author":{"@type":"Person","name":"Rafal Urbaniak"},"description":"(Mostly) bayesian data analysis with a philosophical twist&lt;/br&gt;","@context":"https://schema.org"}</script>
+{"headline":"Projects","url":"http://localhost:4000/menu/projects.html","@type":"WebPage","author":{"@type":"Person","name":"Rafal Urbaniak"},"description":"(Mostly) bayesian data analysis with a philosophical twist&lt;/br&gt;","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -98,18 +98,34 @@
 
 
     <div class="post-container">
-      
+      <h1>
+  Projects
+</h1>
 
-<!-- Pagination links -->
-<div class="pagination">
-  
-    <span class="pagination-button">Older</span>
-  
+<ul id="markdown-toc">
+  <li><a href="#legal-probabilism-bns-github" id="markdown-toc-legal-probabilism-bns-github">Legal Probabilism BNs (github)</a></li>
+</ul>
 
-  
-    <span class="pagination-button">Newer</span>
-  
-</div>
+<h2 id="legal-probabilism-bns-github">Legal Probabilism BNs (<a href="https://rfl-urbaniak.github.io/LegalProbabilismBNs/">github</a>)</h2>
+
+<p><code class="highlighter-rouge">R</code> implementation of bayesian network methods for criminal evidence evaluation, using the examples  <a href="https://www.marcellodibello.com/">Marcello Di Bello</a> and I used in our <strong>Legal Probabilism</strong> entry in the <em>Stanford Encyclopedia of Philosophy</em>.</p>
+
+<ul>
+  <li>Directed Acyclic Graphs construction for various evidence idioms (hypothesis-evidence, multiple pieces of evidence, measurement error, synthesis nodes, evidence accuracy, opportunity, alibi, dependency between items of evidence, mixed DNA evidence evaluation).</li>
+  <li>Integration of DAGs with conditional probability tables.</li>
+  <li>Conversion to junction trees, calculation of priors.</li>
+  <li>Updating a BN with new evidence, calculation of posterios.</li>
+  <li>Propagating new information and converting a junction tree back to BN.</li>
+  <li>A case study with a BN for the <a href="https://en.wikipedia.org/wiki/Sally_Clark">Sally Clark case</a>.</li>
+  <li>Visualisation of marginal probabilities.</li>
+  <li>Some mathematical background explained.</li>
+</ul>
+
+<p float="left">
+  <img src="../images/SCpriors.jpeg" width="450" />
+  <img src="../images/SCposterior.jpeg" width="450" />
+</p>
+
 
     </div>
 

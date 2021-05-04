@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 	<channel>
 		<title>Your Site Name</title>
-		<description>with a cool subheading</description>
+		<description>&lt;br&gt; (Mostly) bayesian data analysis with a philosophical twist&lt;/br&gt;</description>
 		<link></link>
 		<atom:link href="/rss-feed.xml" rel="self" type="application/rss+xml" />
 		
