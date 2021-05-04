@@ -3,7 +3,7 @@ layout: page
 title: Projects
 ---
 
-##  Legal Probabilism BNs [(github site)](https://rfl-urbaniak.github.io/LegalProbabilismBNs/)
+##  Legal Probabilism BNs [(github)](https://rfl-urbaniak.github.io/LegalProbabilismBNs/)
 
 
 `R` implementation of bayesian network methods for criminal evidence evaluation, using the examples  [Marcello Di Bello](https://www.marcellodibello.com/) and I used in our **Legal Probabilism** entry in the Stanford Encyclopedia of Philosophy.
