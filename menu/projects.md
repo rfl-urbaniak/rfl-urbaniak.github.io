@@ -5,6 +5,9 @@ title: Projects
 
 projects
 
+Solarized blah             |  Solarized Ocean
+:-------------------------:|:-------------------------:
+![](images/SCpriors.jpeg)  |  ![](images/SCposterior.jpeg)
 
 
 
