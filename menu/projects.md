@@ -15,6 +15,7 @@ title: Projects
 - Propagating new information and converting a junction tree back to BN.
 - A case study with a BN for the [Sally Clark case](https://en.wikipedia.org/wiki/Sally_Clark).
 - Visualisation of marginal probabilities.
+- Some mathematical background explained.
 
 Solarized blah             |  Solarized Ocean
 :-------------------------:|:-------------------------:
