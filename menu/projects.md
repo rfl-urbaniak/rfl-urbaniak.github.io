@@ -19,6 +19,6 @@ title: Projects
 
 
 <p float="left">
-  <img src="../images/SCpriors.jpeg" width="320" />
-  <img src="../images/SCposterior.jpeg" width="320" />
+  <img src="../images/SCpriors.jpeg" width="250" />
+  <img src="../images/SCposterior.jpeg" width="250" />
 </p>
