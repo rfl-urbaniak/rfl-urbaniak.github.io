@@ -10,7 +10,7 @@ title: Projects
 ##  Legal Probabilism BNs ([github](https://rfl-urbaniak.github.io/LegalProbabilismBNs/))
 
 
-`R` implementation of bayesian network methods for criminal evidence evaluation, using the examples  [Marcello Di Bello](https://www.marcellodibello.com/) and I used in our **Legal Probabilism** entry in the *Stanford Encyclopedia of Philosophy*.
+`R` implementation (with `bnlearn`) of bayesian network methods for criminal evidence evaluation, using the examples  [Marcello Di Bello](https://www.marcellodibello.com/) and I used in our **Legal Probabilism** entry in the *Stanford Encyclopedia of Philosophy*.
 
 - Directed Acyclic Graphs construction for various evidence idioms (hypothesis-evidence, multiple pieces of evidence, measurement error, synthesis nodes, evidence accuracy, opportunity, alibi, dependency between items of evidence, mixed DNA evidence evaluation).
 - Integration of DAGs with conditional probability tables.
