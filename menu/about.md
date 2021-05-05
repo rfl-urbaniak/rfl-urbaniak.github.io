@@ -5,8 +5,7 @@ title: About
 
 
 <p>
-<img align = "left", src="../images/rafalProfile.jpg", width="90" style= "padding-right:15px;padding-top: 5px;
-padding-bottom: 5px;"  /> Rafal is a philosophy professor obsessed with data and in love with  <b> R</b>, and enjoys probabilistic (especially bayesian) thinking about issues that he thinks matter a lot.
+<img align = "left", src="../images/rafalProfile.jpg", width="90"/> Rafal is a philosophy professor obsessed with data and in love with  <b> R</b>, and enjoys probabilistic (especially bayesian) thinking about issues that he thinks matter a lot.
  These include criminal evidence evaluation, the study of online aggression, measures of bias in natural language processing methods, the use of Monte Carlo methods to backtesting in algorithmic trading, or imprecise probabilities in expert testimony.  
 </p>
 
