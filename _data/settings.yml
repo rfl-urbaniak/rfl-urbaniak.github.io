@@ -13,8 +13,9 @@ menu:
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
-- {icon: 'github', link: ''}
-#- {icon: 'twitter', link: ''}
+- {icon: 'home', link: 'https://rfl-urbaniak.github.io/menu/about.html'}
+- {icon: 'envelope', link: 'mailto:rfl.urbaniak@gmail.com'}
+- {icon: 'github', link: 'https://github.com/rfl-urbaniak'}
 #- {icon: 'linkedin', link: ''}
 #- {icon: 'envelope', link: 'mailto:'}
 #- {icon: 'rss-square', link: '/feed.xml'}
