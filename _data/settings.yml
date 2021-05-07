@@ -15,8 +15,8 @@ menu:
 social:
 - {icon: 'home', link: 'https://rfl-urbaniak.github.io/menu/about.html'}
 - {icon: 'envelope', link: 'mailto:rfl.urbaniak@gmail.com'}
-- {icon: 'orcid', link: 'https://orcid.org/0000-0002-6321-2866'}
-- {icon: 'academia', link: 'https://ug.academia.edu/Rafa%C5%82Urbaniak'}
+#- {icon: 'orcid', link: 'https://orcid.org/0000-0002-6321-2866'}
+#- {icon: 'academia', link: 'https://ug.academia.edu/Rafa%C5%82Urbaniak'}
 - {icon: 'github', link: 'https://github.com/rfl-urbaniak'}
 #- {icon: 'linkedin', link: ''}
 #- {icon: 'envelope', link: 'mailto:'}
