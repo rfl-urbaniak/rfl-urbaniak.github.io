@@ -35,7 +35,7 @@ Implementation in R of Monte Carlo methods for gauging uncertainty in algorithmi
 
 
 
-[DOCUMENTATION UNDER CONSTRUCTION]
+DOCUMENTATION UNDER CONSTRUCTION
 
 
 
@@ -47,7 +47,7 @@ In cooperation with [Samurai Labs](https://www.samurailabs.ai/), we tracked 148,
 theoretic analysis with hurdle and zero-inflated models. They agree: personal attacks decrease the victims' activity.
 
 
-[DOCUMENTATION UNDER CONSTRUCTION]
+DOCUMENTATION UNDER CONSTRUCTION
 
 
 
@@ -58,8 +58,7 @@ theoretic analysis with hurdle and zero-inflated models. They agree: personal at
 We propose Markov chain Monte Carlo methods to supersede cosine-distance-based bias measures such as WEAT and argue that the resulting
 picture is not as clear as it initially might have seemed.
 
-[DOCUMENTATION UNDER CONSTRUCTION]
-
+DOCUMENTATION UNDER CONSTRUCTION
 
 
 
@@ -69,9 +68,12 @@ Algorithms for calculating main existing coherence measures over bayesian networ
 
 
 
-[DOCUMENTATION UNDER CONSTRUCTION]
+DOCUMENTATION UNDER CONSTRUCTION
 
 ## Long-term impact of personal attacks on Reddit user activity
 
 Another cooperation with [Samurai Labs](https://www.samurailabs.ai/). Methods for multiple time series with covariates deployed to study the impact of personal attacks on
 25k users of Reddit over 10 weeks.
+
+
+DOCUMENTATION UNDER CONSTRUCTION
