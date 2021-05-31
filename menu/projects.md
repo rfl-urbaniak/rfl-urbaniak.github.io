@@ -26,3 +26,52 @@ title: Projects
   <img src="../images/SCpriors.jpeg" width="450" />
   <img src="../images/SCposterior.jpeg" width="450" />
 </p>
+
+
+## MC in backtesting of optimized trading strategies
+
+Implementation in R of Monte Carlo methods for gauging uncertainty in algorithmic trading strategy evaluation. Illustrates how correcting for multiple testing in optimization can undermine claims to significance.
+
+
+
+
+[DOCUMENTATION UNDER CONSTRUCTION]
+
+
+
+
+
+## Short-term impact of personal attacks on Reddit user activity
+
+In cooperation with [Samurai Labs](https://www.samurailabs.ai/), we tracked 148,317 users and identified personal attacks among 182,528 posts and comments using their high precision software. I analyzed the data from three perspectives: (i) classical statistical methods, (ii) Bayesian estimation, and (iii) model-
+theoretic analysis with hurdle and zero-inflated models. They agree: personal attacks decrease the victims' activity.
+
+
+[DOCUMENTATION UNDER CONSTRUCTION]
+
+
+
+
+##  Bayesian estimation of multi-class bias in word2vec embeddings
+
+
+We propose Markov chain Monte Carlo methods to supersede cosine-distance-based bias measures such as WEAT and argue that the resulting
+picture is not as clear as it initially might have seemed.
+
+[DOCUMENTATION UNDER CONSTRUCTION]
+
+
+
+
+## Probabilistic coherence measures over bayesian networks
+
+Algorithms for calculating main existing coherence measures over bayesian networks, with a new method essentially relying on the causal structure, implemented in R, building on bnlearn, with application to multiple counterexamples to earlier proposals.
+
+
+
+[DOCUMENTATION UNDER CONSTRUCTION]
+
+## Long-term impact of personal attacks on Reddit user activity
+
+Another cooperation with [Samurai Labs](https://www.samurailabs.ai/). Methods for multiple time series with covariates deployed to study the impact of personal attacks on
+25k users of Reddit over 10 weeks.
