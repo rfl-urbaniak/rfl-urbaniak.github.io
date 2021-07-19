@@ -7,7 +7,7 @@ author: "Rafal Urbaniak"
 <img src="../images/AnneMarieFoy.JPG" alt="Rafal" width="200" style="float: center; padding: 10px 15px 0px 0px;"/>
 
 
-In a 2005 killing  of Anne Marie Foy, a former taxi driver from Wavertree, Liverpool was accused of murdering a local sex worker. An important role in the initial conviction and final acquittal was played by DNA evidence. The prosecution's case was based on DNA trace evidence matching Mr Butler's found on the victim's nail.
+In a 2005 killing  of Anne Marie Foy, David Butler, a former taxi driver from Wavertree, Liverpool, was accused of murdering a local sex worker. An important role in the initial conviction and final acquittal was played by DNA evidence. The prosecution's case was based on DNA trace evidence matching Mr Butler's found on the victim's nail.
 
 Now, you might think, DNA match, case closed! Well, in this case the circumstances were crucial. The victim, as it turns out, was wearing a glitter nail polish which attracted dirt and other extraneous material, and, moreover, Mr Butler suffered from a severe skin condition which made him shed flakes of skin very easily. Finally, the victim - the defense explanation goes - paid in cash, so there was contact between the victim and the suspect's hands. For these reasons, despite a DNA match, Mr Butler [has been acquitted](https://www.liverpoolecho.co.uk/news/liverpool-news/david-butler-found-not-guilty-3352469). Sadly, the case remains open.
 
