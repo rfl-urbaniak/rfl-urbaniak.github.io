@@ -4,12 +4,6 @@ title: "Context importance in DNA evidence evaluation: an extreme example"
 author: "Rafal Urbaniak"
 ---
 
-<FIGURE>
-<img src="../images/AnneMarieFoy.JPG"  width="200" style="float: center; padding: 10px 15px 0px 0px;"/>
-<FIGCAPTION>
-Anne Marie Foy (source: <a href="https://www.liverpoolecho.co.uk/news/liverpool-news/david-butler-found-not-guilty-3352469">Liverpool Echo</a>).
-</FIGCAPTION>
-</FIGURE>
 
 
 
@@ -24,3 +18,10 @@ The story illustrates two points:
 -   You might think that it is best that the forensic scientists is blind to all circumstances when processing the samples. However, if the evidence is to be assessed in proper light when it comes to hypotheses other than source level hypotheses, relevant contextual information is crucial! Now, the challenge is to organize the procedure so that the expert receives contextual information, but not anything more, to avoid bias.
 
 Check out Chapter 2 of [Forensic DNA Evidence Interpretation](https://www.routledge.com/Forensic-DNA-Evidence-Interpretation/Buckleton-Bright-Taylor/p/book/9780367778101) edited by John S. Buckleton, Jo-Anne Bright, and Duncan Taylor for more intricacies related to DNA evidence evaluation!
+
+<FIGURE>
+<img src="../images/AnneMarieFoy.JPG"  width="200" style="float: center; padding: 10px 15px 0px 0px;"/>
+<FIGCAPTION>
+Anne Marie Foy (source: <a href="https://www.liverpoolecho.co.uk/news/liverpool-news/david-butler-found-not-guilty-3352469">Liverpool Echo</a>).
+</FIGCAPTION>
+</FIGURE>
