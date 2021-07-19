@@ -2,7 +2,7 @@
 layout: post
 title: "Context importance in DNA evidence evaluation: an extreme example"
 author: "Rafal Urbaniak"
-image: https://i2-prod.liverpoolecho.co.uk/incoming/article3249991.ece/ALTERNATES/s810/anne-marie-foy-300-516578137.jpg
+image: AnneMarieFoy.JPG
 ---
 
 In a 2005 killing  of Anne Marie Foy, a former taxi driver from Wavertree, Liverpool was accused of murdering a local sex worker. An important role in the initial conviction and final acquittal was played by DNA evidence. The prosecution's case was based on DNA trace evidence matching Mr Butler's found on the victim's nail.
