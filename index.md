@@ -3,4 +3,4 @@ layout: home
 title: Home
 ---
 
-test home page
+blog posts?
