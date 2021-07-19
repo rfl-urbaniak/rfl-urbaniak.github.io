@@ -28,6 +28,23 @@ title: Projects
 </p>
 
 
+
+
+## Short-term impact of personal attacks on Reddit user activity ([github](https://rfl-urbaniak.github.io/redditAttacks/))
+
+In cooperation with [Samurai Labs](https://www.samurailabs.ai/), we tracked 148,317 users and identified personal attacks among 182,528 posts and comments using their high precision software. I analyzed the data from three perspectives: (i) classical statistical methods, (ii) Bayesian estimation, and (iii) model-theoretic analysis with hurdle and zero-inflated models. They agree: personal attacks decrease the victims' activity.
+
+
+<p float="left">
+  <img src="../images/highPlot-1.png" width="450" />
+  <img src="../images/highTableBar6-1.png" width="450" />
+  <img src="../images/effPhZ-1.png" width="450" />
+</p>
+
+
+
+
+
 ## MC in backtesting of optimized trading strategies
 
 Implementation in R of Monte Carlo methods for gauging uncertainty in algorithmic trading strategy evaluation. Illustrates how correcting for multiple testing in optimization can undermine claims to significance.
@@ -40,14 +57,6 @@ DOCUMENTATION UNDER CONSTRUCTION
 
 
 
-
-## Short-term impact of personal attacks on Reddit user activity
-
-In cooperation with [Samurai Labs](https://www.samurailabs.ai/), we tracked 148,317 users and identified personal attacks among 182,528 posts and comments using their high precision software. I analyzed the data from three perspectives: (i) classical statistical methods, (ii) Bayesian estimation, and (iii) model-
-theoretic analysis with hurdle and zero-inflated models. They agree: personal attacks decrease the victims' activity.
-
-
-DOCUMENTATION UNDER CONSTRUCTION
 
 
 
