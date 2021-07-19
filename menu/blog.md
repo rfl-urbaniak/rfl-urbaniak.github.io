@@ -2,6 +2,8 @@
 layout: page
 title: Blog
 ---
+
+<!---
 <ul class="posts">
   {% for post in site.posts %}
 
@@ -22,7 +24,7 @@ title: Blog
 
   {% endfor %}
 </ul>
-
+<--->
 
 {% for post in site.posts %}
 <div class="posts">
