@@ -3,8 +3,7 @@ layout: page
 title: ""
 ---
 
-<!---
-<ul class="posts">
+<!-- <ul class="posts">
   {% for post in site.posts %}
 
     {% unless post.next %}
@@ -23,8 +22,7 @@ title: ""
     </li>
 
   {% endfor %}
-</ul>
-<--->
+</ul> -->
 
 {% for post in site.posts %}
 <div class="posts">
