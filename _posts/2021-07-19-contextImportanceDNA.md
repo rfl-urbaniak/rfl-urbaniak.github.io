@@ -5,7 +5,7 @@ author: "Rafal Urbaniak"
 ---
 <FIGURE>
 <img src="../images/AnneMarieFoy.JPG" alt="Anne Marie Foy" width="200" style="float: center; padding: 10px 15px 0px 0px;"/>
-<FIGCAPTION>Anne Marie Foy (source: Liverpool Echo).</FIGCAPTION>
+<FIGCAPTION>Anne Marie Foy (source: <a href="https://www.liverpoolecho.co.uk/news/liverpool-news/david-butler-found-not-guilty-3352469">Liverpool Echo</a>).</FIGCAPTION>
 
 </FIGURE>
 
