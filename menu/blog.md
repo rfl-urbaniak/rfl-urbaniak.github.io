@@ -35,7 +35,7 @@ title: ""
   </div>
   {% endif %}
   <p>
-    {{ post.excerpt }}
+  <!--  {{ post.excerpt }} -->
 
     {{ post.content | strip_html | truncate: 350 }} <a href="{{ site.github.url }}{{ post.url }}">Read more</a>
     <span class="post-date"><i class="fa fa-calendar" aria-hidden="true"></i> {{ post.date | date_to_string }} - <i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</span>
