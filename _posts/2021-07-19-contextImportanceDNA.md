@@ -15,7 +15,7 @@ The story illustrates two points:
 
 -  In DNA evidence evaluation it is important to distiguish [levels of the hypotheses being discussed](https://plato.stanford.edu/entries/legal-probabilism/#SourActiOffeLeveHypo) (yes, there is a match, but whether a specific action took place is another matter).
 
--   You might think that it is best that the forensic scientists is blind to all circumstances when processing the samples. However, if the evidence is to be assessed in proper light when it comes to hypotheses other than source level hypotheses, relevant contextual information is crucial! Now, the challenge is to organize the procedure so that the expert receives contextual information, but not anything more, to avoid bias.
+-   You might think that it is best that the forensic scientists are blind to all circumstances when processing the samples. However, if the evidence is to be assessed in proper light when it comes to hypotheses other than source level hypotheses, relevant contextual information is crucial! Now, the challenge is to organize the procedure so that the expert receives contextual information, but not anything more, to avoid bias.
 
 Check out Chapter 2 of [Forensic DNA Evidence Interpretation](https://www.routledge.com/Forensic-DNA-Evidence-Interpretation/Buckleton-Bright-Taylor/p/book/9780367778101) edited by John S. Buckleton, Jo-Anne Bright, and Duncan Taylor for more intricacies related to DNA evidence evaluation!
 
