@@ -45,7 +45,7 @@ In cooperation with [Samurai Labs](https://www.samurailabs.ai/), we tracked 148,
 
 
 
-## MC in backtesting of optimized trading strategies ([github](https://rfl-urbaniak.github.io/backtesting/))
+## Monte carlo backtesting in R ([github](https://rfl-urbaniak.github.io/backtesting/))
 
 Implementation in R of Monte Carlo methods for gauging uncertainty in algorithmic trading strategy evaluation. Illustrates how Monte Carlo Methods and correcting for multiple testing in optimization can undermine claims to significance.
 
