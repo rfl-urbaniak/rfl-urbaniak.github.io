@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "False positives in DNA identification 1"
+title: "False positives in DNA identification 2"
 author: "Rafal Urbaniak"
 ---
 
