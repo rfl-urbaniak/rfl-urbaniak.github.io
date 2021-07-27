@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.7.16)  26 JUL 2021 07:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.7.16)  27 JUL 2021 12:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -889,7 +889,7 @@ fonts/jkpmsc8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/kpfonts/jk
 pssbn8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/kpfonts/jkpssmn8a
 .pfb></usr/share/texlive/texmf-dist/fonts/type1/public/kpfonts/jkpsy.pfb>
 Output written on /home/rafal/UG/UGprojects/rfl-urbaniak.github.io/cv/urbaniakC
-Vshort.pdf (1 page, 80001 bytes).
+Vshort.pdf (1 page, 80000 bytes).
 PDF statistics:
  54 PDF objects out of 1000 (max. 8388607)
  42 compressed objects within 1 object stream
