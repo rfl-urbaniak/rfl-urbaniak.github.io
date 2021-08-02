@@ -18,9 +18,14 @@ Moreover, such errors are not easy to detect. Since DNA evidence carries so much
 
 
 
+DNA identification is to some extent prone to errors which are not measured by the random match probability, and no serious attempts to systematically quantify error rates in DNA testing have been made. Anecdotal reports about false matches suggest that errors take place more often than RMP would entail, but how often we should expect them remains unclear (Thompson, 2013). Regular proficiency tests used in accreddited DNA laboratories involve comparison of samples from known sources, but they are criticized for being unrealistically easy (yet, it happens that analysts fail them). Sometimes, corrective action files are made available, and then they aren't too impressive. For instance, the Santa Clara County district attorney's crime laboratory between 2003 and 2007 caught 14 instances of evidence cross-contamination with staff DNA, three of contamination by unknown person, and six of DNA contamination from other samples, three cases of DNA sample switch, one mistake in which the analyst reported an incorrect result, and three errors in the computation of the statistics to be reported. Of course, these are errors that were caught, and so one might argue that they show that labs are pretty good at catching their own errors. This, however, is an optimistic intepretation. These errors have been discovered due to unusual circumstances that led to the double-checking of the results. These circumstances, however, do not normally arise. It is not always the case that when a mistake is made the result implicates a staff member or an unknown person who was too young at the time of the crime to have committed it, for instance. Crucially, a match with a person whom the analyst might already know is a suspect is not an outcome that would raise an eyebrow and lead to a double-check.
+
+
+
+
 Dror, I. E., & Hampikian, G. (2011). Subjectivity and bias in forensic DNA mixture interpretation. *Science & Justice*, *51*(4), 204–208. <https://doi.org/10.1016/j.scijus.2011.08.004>
 
-
+Thompson, W. C. (2013). Forensic dna evidence: The myth of infallibility. In S. Krimsky & J. Gruber (Eds.), *Genetic explanations: Sense and nonsense* (pp. 227–347). Harvard University Press.
 
 
 
