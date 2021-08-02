@@ -32,9 +32,9 @@ Now, let us follow Colin Aitken, Taroni, & Thompson (2003) in investigating its 
 
 The formula we will end up with is:
 
-\begin{align*}
+\begin{align}
 \mathsf{LR}(R, S, \neg S) & = \frac{1}{RMP + [ FPP \times (1-RMP)]}
-\end{align*}
+\end{align}
 
  where RMP stands for the random match probability and FPP for the false positive probability. We will assume that whether a (lack of) match is reported is independent of whether it is coincidental,
 
