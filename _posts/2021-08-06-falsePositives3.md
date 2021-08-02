@@ -12,7 +12,7 @@ Hopefully, having convinced the reader that the false positive probability is no
 The **likelihood ratio** is a comparative measure of whether evidence $E$ supports a hypothesis $H$ more than a competing hypothesis $H'$, in symbols:
 \begin{align}
 \label{eq:LR}
-\mathsf{LR}(E,H,H') & = \frac{P(E \vert H)}{P(E \vert H')}.
+\mathsf{LR}(E,H,H') & = \frac{\mathsf{P}(E \vert H)}{\mathsf{P}(E \vert H')}.
 \end{align}
 
 
@@ -36,20 +36,20 @@ The formula we will end up with is:
 \tag{FPP-LR} \mathsf{LR}(R, S, \neg S) & = \frac{1}{RMP + [ FPP \times (1-RMP)]}
 \end{align}
 
-\noindent where RMP stands for the random match probability and FPP for the false positive probability. We will assume that whether a (lack of) match is reported is independent of whether it is coincidental,
+ where RMP stands for the random match probability and FPP for the false positive probability. We will assume that whether a (lack of) match is reported is independent of whether it is coincidental,
 \begin{align}
 \label{eq:indOnS}
-\pr{R \vert M \wedge S} & = \pr{R \vert M \wedge \neg S} = \pr{R \vert M}
+\pr{R \vert M \wedge S} & = \mathsf{P}(R \vert M \wedge \neg S) = \mathsf{P}(R \vert M)
 \\ \nonumber
-\pr{R \vert \neg M \wedge S} & = \pr{R \vert\neg M \wedge \neg S} = \pr{R \vert \neg M},
+\mathsf{P}(R \vert \neg M \wedge S) & = \mathsf{P}(R \vert\neg M \wedge \neg S) = \mathsf{P}(R \vert \neg M),
 \end{align}
 \noindent  that the probability of true match if the suspect is a source is 1,
 \begin{align}
 \label{eq:ifSthenM}
-\pr{M\vert S} = 1  \,\,\, \mbox{ so also } \,\,\, \pr{\neg M \vert S}=0,
+\mathsf{P}(M\vert S) = 1  \,\,\, \mbox{ so also } \,\,\, \mathsf{P}(\neg M \vert S)=0,
 \end{align}
 \noindent and that the probability that a true match is reported,
 \begin{align}
 \label{eq:fnNull}
-\pr{R \vert M} & = 1.
+\mathsf{P}(R \vert M) & = 1.
 \end{align}
