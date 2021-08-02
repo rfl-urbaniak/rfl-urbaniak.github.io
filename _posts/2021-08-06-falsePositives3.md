@@ -10,10 +10,10 @@ Hopefully, having convinced the reader that the false positive probability is no
 
 
 The **likelihood ratio** is a comparative measure of whether evidence $E$ supports a hypothesis $H$ more than a competing hypothesis $H'$, in symbols:
-\begin{align*}
+\begin{align}
 \label{eq:LR}
 \mathsf{LR}(E,H,H') & = \frac{\mathsf{P}(E \vert H)}{\mathsf{P}(E \vert H')}.
-\end{align*}
+\end{align}
 
 
 If the evidence supports $H$ more than $H'$, the ratio would be above one, and if the evidence supports $H'$ more than $H$, the ratio would be below one.  So, support levels correspond to deviations from one.  The greater the likelihood ratio (for values above one), the stronger the evidence in favor of $H$ as contrasted with $H'$. The smaller the likelihood ratio (for values below one), the stronger the evidence in favor of the competing hypothesis $H'$ as contrasted with $H$.
@@ -38,89 +38,89 @@ The formula we will end up with is:
 
  where RMP stands for the random match probability and FPP for the false positive probability. We will assume that whether a (lack of) match is reported is independent of whether it is coincidental,
 
-\begin{align*}
-\mathsf{P}(R \vert M \wedge S)  = \mathsf{P}(R \vert M \wedge \neg S) = \mathsf{P}(R \vert M)\end{align*}
-\begin{align*}
+\begin{align}
+\mathsf{P}(R \vert M \wedge S)  = \mathsf{P}(R \vert M \wedge \neg S) = \mathsf{P}(R \vert M)\end{align}
+\begin{align}
 \mathsf{P}(R \vert \neg M \wedge S)  = \mathsf{P}(R \vert\neg M \wedge \neg S) = \mathsf{P}(R \vert \neg M)
-\end{align*}
+\end{align}
 that the probability of true match if the suspect is a source is 1,
-\begin{align*}
+\begin{align}
 \mathsf{P}(M\vert S) = 1  \,\,\, \mbox{ so also } \,\,\, \mathsf{P}(\neg M \vert S)=0,
-\end{align*}
+\end{align}
 and that the probability that a true match is reported,
-\begin{align*}\mathsf{P}(R \vert M) & = 1.\end{align*}
+\begin{align}\mathsf{P}(R \vert M) & = 1.\end{align}
 
 
 
 The formula we will end up with is:
 
-\begin{align*}
+\begin{align}
 \mathsf{LR}(R, S, \neg S)  = \frac{1}{RMP + [ FPP \times (1-RMP)]}
-\end{align*}
+\end{align}
 \noindent where RMP stands for the random match probability and FPP for the false positive probability. We will assume that whether a (lack of) match is reported is independent of whether it is coincidental,
-\begin{align*}
+\begin{align}
 \mathsf{P}(R \vert M \wedge S)  = \mathsf{P}(R \vert M \wedge \neg S) = \mathsf{P}(R \vert M)
-\end{align*}
-\begin{align*}
+\end{align}
+\begin{align}
 \mathsf{P}(R \vert \neg M \wedge S)  = \mathsf{P}(R \vert\neg M \wedge \neg S) = \mathsf{P}(R \vert \neg M),
-\end{align*}
+\end{align}
 that the probability of true match if the suspect is a source is 1,
-\begin{align*}
+\begin{align}
 \mathsf{P}(M\vert S) = 1  \,\,\, \mbox{ so also } \,\,\, \mathsf{P}()\neg M \vert S)=0,
-\end{align*}
+\end{align}
 and that the probability that a true match is reported,
-\begin{align*}
+\begin{align}
 \mathsf{P}(R \vert M)  = 1.
-\end{align*}
+\end{align}
 
 
 
 Here, for simplicity we take the probability of a false negative to be null; in fact, some of the reasons for taking false positives seriously are also reasons to take false negatives seriously, but let's deal with one problem at a time (and in the end, the impact of a false positive risk will be clear from the way the formula will be derived). Now, let us rewrite the numerator of the LR by extending the conversation, rewriting the probabilities of conjunctions in terms of conditional probability and simplifying:
 
-\begin{align*}
+\begin{align}
 \mathsf{P}(R\vert S)  = \frac{\pr{R\wedge S}}{\pr{S}}   = \frac{\mathsf{P}(R \wedge M \wedge S) + \mathsf{P}(R \wedge \neg M \wedge S)}
-{\mathsf{P}(S)} \end{align*}
-\begin{align*}
- = \frac{\mathsf{P}(R \vert M \wedge S)\mathsf{P}(M \vert S)\mathsf{P}(S) + \mathsf{P}(R \vert \neg M \wedge S)\mathsf{P}()\neg M \vert S)\mathsf{P}(S)} {\mathsf{P}(S)}  \end{align*}\begin{align*}
+{\mathsf{P}(S)} \end{align}
+\begin{align}
+ = \frac{\mathsf{P}(R \vert M \wedge S)\mathsf{P}(M \vert S)\mathsf{P}(S) + \mathsf{P}(R \vert \neg M \wedge S)\mathsf{P}()\neg M \vert S)\mathsf{P}(S)} {\mathsf{P}(S)}  \end{align}\begin{align}
  = \mathsf{P}(R \vert M \wedge S)\mathsf{P}(M \vert S) + \mathsf{P}(R \vert \neg M \wedge S)\mathsf{P}()\neg M \vert S)
-\end{align*}
+\end{align}
 
 \noindent  Analogously, we can rewrite the denominator:
-\begin{align*}
+\begin{align}
 \mathsf{P}(R \vert \neg S)  = \mathsf{P}(R \vert M \wedge \neg S)\mathsf{P}(M \vert \neg S) +
 \mathsf{P}(R \vert \neg M \wedge \neg S)\mathsf{P}(\neg M \vert \neg S)
-\end{align*}
+\end{align}
 
 Putting these together, we have that:
-\begin{align*}
+\begin{align}
 \mathsf{LR}(R,S, \neg S)  = \frac{\mathsf{P}(R \vert M \wedge S)\mathsf{P}(M \vert S) + \mathsf{P}(R \vert \neg M \wedge S)
 \mathsf{P}(\neg M \vert S)}
 {\mathsf{P}(R \vert M \wedge \neg S)\mathsf{P}(M \vert \neg S) +
 \mathsf{P}(R \vert \neg M \wedge \neg S)\mathsf{P}(\neg M \vert \neg S)}
-\end{align*}
+\end{align}
 Now, apply one of the identities in four places:
-\begin{align*}
+\begin{align}
 \mathsf{LR}(R,S, \neg S)  = \frac{
 \mathsf{P}(R \vert M)\mathsf{P}(M \vert S) + \mathsf{P}(R \vert \neg M)\mathsf{P}(\neg M \vert S)
 }{
 \mathsf{P}(R \vert M )\mathsf{P}(M \vert \neg S) +
 \mathsf{P}(R \vert \neg M)\mathsf{P}(\neg M \vert \neg S)
 }
-\end{align*}
+\end{align}
 Then, rewrite  the numerator:
-\begin{align*}
+\begin{align}
 \mathsf{LR}(R,S, \neg S)  = \frac{
 \mathsf{P}(R \vert M) \times 1 + \mathsf{P}(R \vert \neg M)\times 0
 }{
 \mathsf{P}(R \vert M )\mathsf{P}(M \vert \neg S) +
 \mathsf{P}(R \vert \neg M)\mathsf{P}(\neg M \vert \neg S)
 }
-\end{align*}
+\end{align}
 Finally, we have:
-\begin{align*}
+\begin{align}
 \mathsf{LR}(R,S, \neg S) & = \frac{1}
 {\mathsf{P}(R \vert  M)\mathsf{P}( M \vert \neg S) + \mathsf{P}(R \vert \neg M)\mathsf{P}(\neg M \vert \neg S)}
-\end{align*}
+\end{align}
 Once we abbreviate $\mathsf{P}(M\vert \neg S)$ as RMP, $\mathsf{P}(R \vert \neg M)$ as FPP and $\mathsf{P}(\neg M \vert \neg S)$, we arrive at the desired formula.
 
 
