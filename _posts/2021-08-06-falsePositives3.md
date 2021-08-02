@@ -55,18 +55,18 @@ and that the probability that a true match is reported,
 The formula we will end up with is:
 
 \begin{align*}
-\mathsf{LR}(R, S, \n S)  = \frac{1}{RMP + [ FPP \times (1-RMP)]}
+\mathsf{LR}(R, S, \neg S)  = \frac{1}{RMP + [ FPP \times (1-RMP)]}
 \end{align*}
 \noindent where RMP stands for the random match probability and FPP for the false positive probability. We will assume that whether a (lack of) match is reported is independent of whether it is coincidental,
 \begin{align*}
-\mathsf{P}(R \vert M \et S)  = \mathsf{P}(R \vert M \et \n S) = \mathsf{P}(R \vert M)
+\mathsf{P}(R \vert M \wedge S)  = \mathsf{P}(R \vert M \wedge \neg S) = \mathsf{P}(R \vert M)
 \end{align*}
 \begin{align*}
-\mathsf{P}(R \vert \n M \et S)  = \mathsf{P}(R \vert\n M \et \n S) = \mathsf{P}(R \vert \n M),
+\mathsf{P}(R \vert \neg M \wedge S)  = \mathsf{P}(R \vert\neg M \wedge \neg S) = \mathsf{P}(R \vert \neg M),
 \end{align*}
 that the probability of true match if the suspect is a source is 1,
 \begin{align*}
-\mathsf{P}(M\vert S) = 1  \,\,\, \mbox{ so also } \,\,\, \mathsf{P}()\n M \vert S)=0,
+\mathsf{P}(M\vert S) = 1  \,\,\, \mbox{ so also } \,\,\, \mathsf{P}()\neg M \vert S)=0,
 \end{align*}
 and that the probability that a true match is reported,
 \begin{align*}
@@ -78,50 +78,50 @@ and that the probability that a true match is reported,
 Here, for simplicity we take the probability of a false negative to be null; in fact, some of the reasons for taking false positives seriously are also reasons to take false negatives seriously, but let's deal with one problem at a time (and in the end, the impact of a false positive risk will be clear from the way the formula will be derived). Now, let us rewrite the numerator of the LR by extending the conversation, rewriting the probabilities of conjunctions in terms of conditional probability and simplifying:
 
 \begin{align*}
-\mathsf{P}(R\vert S)  = \frac{\pr{R\et S}}{\pr{S}}   = \frac{\mathsf{P}(R \et M \et S) + \mathsf{P}(R \et \n M \et S)}
+\mathsf{P}(R\vert S)  = \frac{\pr{R\wedge S}}{\pr{S}}   = \frac{\mathsf{P}(R \wedge M \wedge S) + \mathsf{P}(R \wedge \neg M \wedge S)}
 {\mathsf{P}(S)} \end{align*}
 \begin{align*}
- = \frac{\mathsf{P}(R \vert M \et S)\mathsf{P}(M \vert S)\mathsf{P}(S) + \mathsf{P}(R \vert \n M \et S)\mathsf{P}()\n M \vert S)\mathsf{P}(S)} {\mathsf{P}(S)}  \end{align*}\begin{align*}
- = \mathsf{P}(R \vert M \et S)\mathsf{P}(M \vert S) + \mathsf{P}(R \vert \n M \et S)\mathsf{P}()\n M \vert S)
+ = \frac{\mathsf{P}(R \vert M \wedge S)\mathsf{P}(M \vert S)\mathsf{P}(S) + \mathsf{P}(R \vert \neg M \wedge S)\mathsf{P}()\neg M \vert S)\mathsf{P}(S)} {\mathsf{P}(S)}  \end{align*}\begin{align*}
+ = \mathsf{P}(R \vert M \wedge S)\mathsf{P}(M \vert S) + \mathsf{P}(R \vert \neg M \wedge S)\mathsf{P}()\neg M \vert S)
 \end{align*}
 
 \noindent  Analogously, we can rewrite the denominator:
 \begin{align*}
-\mathsf{P}(R \vert \n S)  = \mathsf{P}(R \vert M \et \n S)\mathsf{P}(M \vert \n S) +
-\mathsf{P}(R \vert \n M \et \n S)\mathsf{P}(\n M \vert \n S)
+\mathsf{P}(R \vert \neg S)  = \mathsf{P}(R \vert M \wedge \neg S)\mathsf{P}(M \vert \neg S) +
+\mathsf{P}(R \vert \neg M \wedge \neg S)\mathsf{P}(\neg M \vert \neg S)
 \end{align*}
 
 Putting these together, we have that:
 \begin{align*}
-\mathsf{LR}(R,S, \n S)  = \frac{\mathsf{P}(R \vert M \et S)\mathsf{P}(M \vert S) + \mathsf{P}(R \vert \n M \et S)
-\mathsf{P}(\n M \vert S)}
-{\mathsf{P}(R \vert M \et \n S)\mathsf{P}(M \vert \n S) +
-\mathsf{P}(R \vert \n M \et \n S)\mathsf{P}(\n M \vert \n S)}
+\mathsf{LR}(R,S, \neg S)  = \frac{\mathsf{P}(R \vert M \wedge S)\mathsf{P}(M \vert S) + \mathsf{P}(R \vert \neg M \wedge S)
+\mathsf{P}(\neg M \vert S)}
+{\mathsf{P}(R \vert M \wedge \neg S)\mathsf{P}(M \vert \neg S) +
+\mathsf{P}(R \vert \neg M \wedge \neg S)\mathsf{P}(\neg M \vert \neg S)}
 \end{align*}
 Now, apply one of the identities in four places:
 \begin{align*}
-\mathsf{LR}(R,S, \n S)  = \frac{
-\mathsf{P}(R \vert M)\mathsf{P}(M \vert S) + \mathsf{P}(R \vert \n M)\mathsf{P}(\n M \vert S)
+\mathsf{LR}(R,S, \neg S)  = \frac{
+\mathsf{P}(R \vert M)\mathsf{P}(M \vert S) + \mathsf{P}(R \vert \neg M)\mathsf{P}(\neg M \vert S)
 }{
-\mathsf{P}(R \vert M )\mathsf{P}(M \vert \n S) +
-\mathsf{P}(R \vert \n M)\mathsf{P}(\n M \vert \n S)
+\mathsf{P}(R \vert M )\mathsf{P}(M \vert \neg S) +
+\mathsf{P}(R \vert \neg M)\mathsf{P}(\neg M \vert \neg S)
 }
 \end{align*}
 Then, rewrite  the numerator:
 \begin{align*}
-\mathsf{LR}(R,S, \n S)  = \frac{
-\mathsf{P}(R \vert M) \times 1 + \mathsf{P}(R \vert \n M)\times 0
+\mathsf{LR}(R,S, \neg S)  = \frac{
+\mathsf{P}(R \vert M) \times 1 + \mathsf{P}(R \vert \neg M)\times 0
 }{
-\mathsf{P}(R \vert M )\mathsf{P}(M \vert \n S) +
-\mathsf{P}(R \vert \n M)\mathsf{P}(\n M \vert \n S)
+\mathsf{P}(R \vert M )\mathsf{P}(M \vert \neg S) +
+\mathsf{P}(R \vert \neg M)\mathsf{P}(\neg M \vert \neg S)
 }
 \end{align*}
 Finally, we have:
 \begin{align*}
-\mathsf{LR}(R,S, \n S) & = \frac{1}
-{\mathsf{P}(R \vert  M)\mathsf{P}( M \vert \n S) + \mathsf{P}(R \vert \n M)\mathsf{P}(\n M \vert \n S)}
+\mathsf{LR}(R,S, \neg S) & = \frac{1}
+{\mathsf{P}(R \vert  M)\mathsf{P}( M \vert \neg S) + \mathsf{P}(R \vert \neg M)\mathsf{P}(\neg M \vert \neg S)}
 \end{align*}
-Once we abbreviate $\mathsf{P}(M\vert \n S)$ as RMP, $\mathsf{P}(R \vert \n M)$ as FPP and $\mathsf{P}(\n M \vert \n S)$, we arrive at the desired formula.
+Once we abbreviate $\mathsf{P}(M\vert \neg S)$ as RMP, $\mathsf{P}(R \vert \neg M)$ as FPP and $\mathsf{P}(\neg M \vert \neg S)$, we arrive at the desired formula.
 
 
 
