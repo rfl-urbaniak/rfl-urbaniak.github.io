@@ -33,20 +33,20 @@ Now, let us follow Colin Aitken, Taroni, & Thompson (2003) in investigating its 
 The formula we will end up with is:
 
 \begin{align}
-\tag{FPP-LR} \mathsf{LR}(R, S, \n S) & = \frac{1}{RMP + [ FPP \times (1-RMP)]}
+\tag{FPP-LR} \mathsf{LR}(R, S, \neg S) & = \frac{1}{RMP + [ FPP \times (1-RMP)]}
 \end{align}
 
 \noindent where RMP stands for the random match probability and FPP for the false positive probability. We will assume that whether a (lack of) match is reported is independent of whether it is coincidental,
 \begin{align}
 \label{eq:indOnS}
-\pr{R \vert M \et S} & = \pr{R \vert M \et \n S} = \pr{R \vert M}
+\pr{R \vert M \wedge S} & = \pr{R \vert M \wedge \neg S} = \pr{R \vert M}
 \\ \nonumber
-\pr{R \vert \n M \et S} & = \pr{R \vert\n M \et \n S} = \pr{R \vert \n M},
+\pr{R \vert \neg M \wedge S} & = \pr{R \vert\neg M \wedge \neg S} = \pr{R \vert \neg M},
 \end{align}
 \noindent  that the probability of true match if the suspect is a source is 1,
 \begin{align}
 \label{eq:ifSthenM}
-\pr{M\vert S} = 1  \,\,\, \mbox{ so also } \,\,\, \pr{\n M \vert S}=0,
+\pr{M\vert S} = 1  \,\,\, \mbox{ so also } \,\,\, \pr{\neg M \vert S}=0,
 \end{align}
 \noindent and that the probability that a true match is reported,
 \begin{align}
