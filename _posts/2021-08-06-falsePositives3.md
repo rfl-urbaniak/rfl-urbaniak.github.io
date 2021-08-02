@@ -78,7 +78,7 @@ and that the probability that a true match is reported,
 Here, for simplicity we take the probability of a false negative to be null; in fact, some of the reasons for taking false positives seriously are also reasons to take false negatives seriously, but let's deal with one problem at a time (and in the end, the impact of a false positive risk will be clear from the way the formula will be derived). Now, let us rewrite the numerator of the LR by extending the conversation, rewriting the probabilities of conjunctions in terms of conditional probability and simplifying:
 
 \begin{align}
-\mathsf{P}(R\vert S)  = \frac{\pr{R\wedge S}}{\pr{S}}   = \frac{\mathsf{P}(R \wedge M \wedge S) + \mathsf{P}(R \wedge \neg M \wedge S)}
+\mathsf{P}(R\vert S)  = \frac{\mathsf{P}(R\wedge S)}{\mathsf{P}(S)}   = \frac{\mathsf{P}(R \wedge M \wedge S) + \mathsf{P}(R \wedge \neg M \wedge S)}
 {\mathsf{P}(S)} \end{align}
 \begin{align}
  = \frac{\mathsf{P}(R \vert M \wedge S)\mathsf{P}(M \vert S)\mathsf{P}(S) + \mathsf{P}(R \vert \neg M \wedge S)\mathsf{P}()\neg M \vert S)\mathsf{P}(S)} {\mathsf{P}(S)}  \end{align}\begin{align}
