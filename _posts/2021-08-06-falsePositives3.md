@@ -122,3 +122,16 @@ Finally, we have:
 {\mathsf{P}(R \vert  M)\mathsf{P}( M \vert \n S) + \mathsf{P}(R \vert \n M)\mathsf{P}(\n M \vert \n S)}
 \end{align*}
 Once we abbreviate $\mathsf{P}(M\vert \n S)$ as RMP, $\mathsf{P}(R \vert \n M)$ as FPP and $\mathsf{P}(\n M \vert \n S)$, we arrive at the desired formula.
+
+
+
+
+Now, let us illustrate this impact for the range of FPP between 0 and 0.05, for two values of RMP: $10^{-9}$ (often reported in the case of two single source samples over ten or more loci) and $10{^-3}$ (sometimes obtained by means of less discriminating tests when the comparison involves a mixed sample).
+
+
+<img src="https://rfl-urbaniak.github.io/images/fig-fpplr-1.png" width="100%" style="display: block; margin: auto;" />
+
+
+Aitken, C., Roberts, P., & Jackson, G. (2010). Fundamentals of probability and statistical evidence in criminal proceedings (Practitioner Guide No. 1), Guidance for judges, lawyers, forensic scientists and expert witnesses. *Royal Statistical Society’s Working Group on Statistics and the Law*.
+
+Aitken, C., Taroni, F., & Thompson, W. (2003). How the probability of a false positive affects the value of dna evidence. *Journal of Forensic Science*, *48*(1), 1–8. <https://doi.org/10.1520/jfs2001171>
