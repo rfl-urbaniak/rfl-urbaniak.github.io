@@ -31,3 +31,28 @@ $R$ & A match is reported. \\
 $M$ & There is a true match.
 \end{tabular}
 \end{center}
+
+
+The formula we will end up with is:
+
+\begin{align}
+\tag{FPP-LR} \mathsf{LR}(R, S, \n S) & = \frac{1}{RMP + [ FPP \times (1-RMP)]}
+\end{align}
+
+\noindent where RMP stands for the random match probability and FPP for the false positive probability. We will assume that whether a (lack of) match is reported is independent of whether it is coincidental,
+\begin{align}
+\label{eq:indOnS}
+\pr{R \vert M \et S} & = \pr{R \vert M \et \n S} = \pr{R \vert M}
+\\ \nonumber
+\pr{R \vert \n M \et S} & = \pr{R \vert\n M \et \n S} = \pr{R \vert \n M},
+\end{align}
+\noindent  that the probability of true match if the suspect is a source is 1,
+\begin{align}
+\label{eq:ifSthenM}
+\pr{M\vert S} = 1  \,\,\, \mbox{ so also } \,\,\, \pr{\n M \vert S}=0,
+\end{align}
+\noindent and that the probability that a true match is reported,
+\begin{align}
+\label{eq:fnNull}
+\pr{R \vert M} & = 1.
+\end{align}
