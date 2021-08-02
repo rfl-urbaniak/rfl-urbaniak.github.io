@@ -57,7 +57,7 @@ The formula we will end up with is:
 \begin{align}
 \mathsf{LR}(R, S, \neg S)  = \frac{1}{RMP + [ FPP \times (1-RMP)]}
 \end{align}
-\noindent where RMP stands for the random match probability and FPP for the false positive probability. We will assume that whether a (lack of) match is reported is independent of whether it is coincidental,
+where RMP stands for the random match probability and FPP for the false positive probability. We will assume that whether a (lack of) match is reported is independent of whether it is coincidental,
 \begin{align}
 \mathsf{P}(R \vert M \wedge S)  = \mathsf{P}(R \vert M \wedge \neg S) = \mathsf{P}(R \vert M)
 \end{align}
@@ -85,7 +85,7 @@ Here, for simplicity we take the probability of a false negative to be null; in 
  = \mathsf{P}(R \vert M \wedge S)\mathsf{P}(M \vert S) + \mathsf{P}(R \vert \neg M \wedge S)\mathsf{P}()\neg M \vert S)
 \end{align}
 
-\noindent  Analogously, we can rewrite the denominator:
+ Analogously, we can rewrite the denominator:
 \begin{align}
 \mathsf{P}(R \vert \neg S)  = \mathsf{P}(R \vert M \wedge \neg S)\mathsf{P}(M \vert \neg S) +
 \mathsf{P}(R \vert \neg M \wedge \neg S)\mathsf{P}(\neg M \vert \neg S)
