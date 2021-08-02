@@ -24,13 +24,10 @@ Experts sometimes testify by offering the likelihood ratio as a measure of the s
 
 Now, let us follow Colin Aitken, Taroni, & Thompson (2003) in investigating its impact on the likelihood ratio of the DNA match. We just add a bit more details to the derivation they present for the sake of clarity. For simplicity we stil assume that the false negative probability is 0, that is, that if the match is real, it will be reported with certainty. We abbreviate:
 
-\begin{center} \hspace{10mm}
-\begin{tabular}{lp{9cm}}
-$S$ & The specimen comes from the suspect. \\
-$R$ & A match is reported. \\
-$M$ & There is a true match.
-\end{tabular}
-\end{center}
+
+| $S$ | The specimen comes from the suspect. |
+| $R$ | A match is reported.                 |
+| $M$ | There is a true match.               |
 
 
 The formula we will end up with is:
