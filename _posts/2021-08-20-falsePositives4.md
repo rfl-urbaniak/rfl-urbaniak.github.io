@@ -39,5 +39,21 @@ LR  = \frac{\mathsf{P}(R\vert S)}
 
 
 
+Note now that if you think of an error as something that guarantees a mistaken identification, $k$ becomes $1$ and $e$ becomes the false positive rate. On this assumption we have:
+\begin{align}
+\frac{1 - (1-k)e}{RMP(1-e)+ke}  = \frac{1-e+e}{RMP(1-e)+e}\\
+ = \frac{1}{RMP - e\times RMP + e} = \frac{1}{1 + e(1-RMP)}
+\end{align}
+
+which is the same as the formula obtained by Aitken, Taroni, & Thompson (2003) if we take ![e](https://latex.codecogs.com/png.latex?e "e") to be FPP, as we should on the assumption that ![k=1](https://latex.codecogs.com/png.latex?k%3D1 "k=1").
+
+
+
+
+
+
+
+
+Aitken, C., Taroni, F., & Thompson, W. (2003). How the probability of a false positive affects the value of dna evidence. *Journal of Forensic Science*, *48*(1), 1–8. <https://doi.org/10.1520/jfs2001171>
 
 Buckleton, J. S., Bright, J.-A., & Taylor, D. (2018). *Forensic dna evidence interpretation*. CRC press.

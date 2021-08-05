@@ -25,3 +25,6 @@ the impact of errors on likelihood ratio different from the one we discussed bef
 
 
 First, @buckleton2018forensic make the conceptual distinction between the probability that an error occurs ($E$) and the probability that a match is reported if it does. In terms of our notation, we have:
+
+which is the same as the formula obtained by  @aitken2003probability if we take $e$ to be FPP, as we should on the assumption that $k=1$.
+
