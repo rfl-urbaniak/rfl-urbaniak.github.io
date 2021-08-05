@@ -9,7 +9,7 @@ Last time we derived one formula for the impact of false positive probability on
 First, Buckleton et al. (2018) make the conceptual distinction between the probability that an error occurs (![E](https://latex.codecogs.com/png.latex?E "E")) and the probability that a match is reported if it does. In terms of our notation, we have:
 
 \begin{align}
-e  = \mathsf{P}(E) = \mathsf{P}(E \vert S) = \mathsf{P}E \vert \n S)
+e  = \mathsf{P}(E) = \mathsf{P}(E \vert S) = \mathsf{P}E \vert \neg S)
 \end{align}
 
 That is, we denote the probability of error as $e$, and we assume it doesn't depend on whether the prosecution hypothesis is true (whether the suspect is the source).
