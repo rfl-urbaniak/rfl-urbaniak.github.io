@@ -16,14 +16,14 @@ That is, we denote the probability of error as $e$, and we assume it doesn't dep
 
 
 Separately, the formula includes the probability of a reported match if an error occurs, also assumed to be independent of whether the prosecution hypothesis is true:
-\[
+\begin{align}
 k  =  \mathsf{P}(R \vert E, S) = \mathsf{P}R \vert E, \n S)
-\]
+\end{align}
 \noindent Further, it is assumed that the probability of false negatives is zero ($\mathsf{P}(R \vert S, \n E) =1$) and the probability of reported match if no error occurs and the defense hypothesis is true is RMP ($\mathsf{P}R \vert \neg E, \neg S)=RMP$).
 
 
 Now the derivation:
-\[
+\begin{align}
 LR  = \frac{\mathsf{P}(R\vert S)}
 {\mathsf{P}(R \vert \neg S)}\\
  = \frac{\mathsf{P}(R \vert \neg E, S)\mathsf{P}(\neg E \vert S) + \mathsf{P}(R \vert E, S)\mathsf{P}(E \vert S)}
@@ -31,7 +31,7 @@ LR  = \frac{\mathsf{P}(R\vert S)}
  = \frac{1(1-e) + ke}
 {RMP(1-e)+ke}  = \frac{1-e+ke}{RMP  - e\times RMP + ke} \\
  = \frac{1 - (1-k)e}{RMP(1-e)+ke}
-\]
+\end{align}
 
 
 
