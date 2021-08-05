@@ -25,9 +25,13 @@ k  =  \mathsf{P}(R \vert E, S) = \mathsf{P}R \vert E, \n S)
 Now the derivation:
 \begin{align}
 LR  = \frac{\mathsf{P}(R\vert S)}
-{\mathsf{P}(R \vert \neg S)}\\
+{\mathsf{P}(R \vert \neg S)}
+\end{align}
+\begin{align}
  = \frac{\mathsf{P}(R \vert \neg E, S)\mathsf{P}(\neg E \vert S) + \mathsf{P}(R \vert E, S)\mathsf{P}(E \vert S)}
-{\mathsf{P}(R \vert \neg E, \neg S) \matsf{P}(\neg E \vert \neg S) + \mathsf{P}(R \vert E, \neg S)\mathsf{P}(E \vert \neg S)}\\
+{\mathsf{P}(R \vert \neg E, \neg S) \mathsf{P}(\neg E \vert \neg S) + \mathsf{P}(R \vert E, \neg S)\mathsf{P}(E \vert \neg S)}
+\end{align}
+\begin{align}
  = \frac{1(1-e) + ke}
 {RMP(1-e)+ke}  = \frac{1-e+ke}{RMP  - e\times RMP + ke} \\
  = \frac{1 - (1-k)e}{RMP(1-e)+ke}
