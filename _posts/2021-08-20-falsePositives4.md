@@ -43,6 +43,7 @@ Note now that if you think of an error as something that guarantees a mistaken i
 \begin{align}
 \frac{1 - (1-k)e}{RMP(1-e)+ke}  = \frac{1-e+e}{RMP(1-e)+e}
 \end{align}
+
 \begin{align}
  = \frac{1}{RMP - e\times RMP + e} = \frac{1}{1 + e(1-RMP)}
 \end{align}
