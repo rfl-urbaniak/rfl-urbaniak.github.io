@@ -15,7 +15,7 @@ One notorious case involving a false positive is that of Josiah Sutton (then 16)
 
 This is only one example of DNA matching going awry, and the existing anecdotal evidence suggests there are quite a few potential sources of error. See for instance Thompson (2013) for a more exhaustive treatment and multiple examples. Check out Josiah Sutton's [entry](https://www.law.umich.edu/special/exoneration/Pages/casedetail.aspx?caseid=3672) in the national registry of exonerations, and a [discussion](https://www.mrt.com/news/article/Police-arrest-man-for-rape-that-sent-wrong-person-7692949.php) of the case in a newspaper.
 
-Shaer, M. (2016). The false promise of dna testing. *The Atlantic*, (June). Retrieved from <https://www.theatlantic.com/magazine/archive/2016/06/a-reasonable-doubt/480747/>
+Shaer, M. (2016). The false promise of DNA testing. *The Atlantic*, (June). Retrieved from <https://www.theatlantic.com/magazine/archive/2016/06/a-reasonable-doubt/480747/>
 
 Thompson, W. C. (2013). Forensic dna evidence: The myth of infallibility. In S. Krimsky & J. Gruber (Eds.), *Genetic explanations: Sense and nonsense* (pp. 227–347). Harvard University Press.
 
