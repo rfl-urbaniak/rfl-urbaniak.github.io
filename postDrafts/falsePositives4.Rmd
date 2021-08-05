@@ -4,7 +4,7 @@ title: False positives
 output:
   #  md_document:
   github_document:
-    pandoc_args: --webtex
+    pandoc_args: --mathjax
 #    variant: markdown_github
   preserve_yaml: true
 bibliography: [../references/referencesMRbook.bib]
