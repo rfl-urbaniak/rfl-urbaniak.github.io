@@ -1,0 +1,27 @@
+---
+layout: page
+title: False positives
+output:
+  #  md_document:
+  github_document:
+    pandoc_args: --webtex
+#    variant: markdown_github
+  preserve_yaml: true
+bibliography: [../references/referencesMRbook.bib]
+csl: [../references/apa-6th-edition.csl]
+---
+
+```{r , echo = FALSE, eval = TRUE}
+#knitr::opts_knit$set(base.dir = "/home/rafal/L2/L2projects/backtesting",
+knitr::opts_knit$set(base.dir = "/home/rafal/UG/UGprojects/rfl-urbaniak.github.io",
+base.url = "https://rfl-urbaniak.github.io/")
+knitr::opts_chunk$set(fig.path = "images/")
+```
+
+
+Last time we derived one formula for the impact of false positive probability on the value of DNA evidence. Today, we'll look at seemingly different formula to get a better perspective.
+                                                                                                 @buckleton2018forensic give a  formula for
+the impact of errors on likelihood ratio different from the one we discussed before. Since the derivation is simpler and it turns out that in fact this is simply a more general formula, of which the one we already discussed is just a particular instance, it worth taking a look.
+
+
+First, @buckleton2018forensic make the conceptual distinction between the probability that an error occurs ($E$) and the probability that a match is reported if it does. In terms of our notation, we have:
