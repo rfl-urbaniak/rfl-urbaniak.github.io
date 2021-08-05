@@ -54,6 +54,8 @@ which is the same as the formula obtained by Aitken, Taroni, & Thompson (2003) i
 
 
 
+
+
 Aitken, C., Taroni, F., & Thompson, W. (2003). How the probability of a false positive affects the value of dna evidence. *Journal of Forensic Science*, *48*(1), 1–8. <https://doi.org/10.1520/jfs2001171>
 
 Buckleton, J. S., Bright, J.-A., & Taylor, D. (2018). *Forensic dna evidence interpretation*. CRC press.
