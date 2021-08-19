@@ -12,11 +12,14 @@ l & = \mathsf{P}(\neg R \vert E, S) = \mathsf{P}(\neg R \vert E, \neg S) = \math
 Now, the likelihood ratio calculations, assuming $l = 1$, go as follows:
 
 \begin{align}
-\mathsf{LR}(\neg R, S, \neg S) & = \frac{\mathsf{P}(\neg R \vert S)}{\mathsf{P}(\neg R \vert \neg S)} \\
+\mathsf{LR}(\neg R, S, \neg S) & = \frac{\mathsf{P}(\neg R \vert S)}{\mathsf{P}(\neg R \vert \neg S)} \end{align}
+\begin{align}
 & = \frac{\mathsf{P}(\neg R \vert \neg E, S)\mathsf{P}(\neg E \vert S) + \mathsf{P}(\neg R \vert E, S)\mathsf{P}(E \vert S)}
-{\mathsf{P}(\neg R \vert \neg E, \neg S)\mathsf{P}(\neg E \vert \neg S) + \mathsf{P}(\neg R \vert E,\neg S)\mathsf{P}(E \vert \neg S)} \\
+{\mathsf{P}(\neg R \vert \neg E, \neg S)\mathsf{P}(\neg E \vert \neg S) + \mathsf{P}(\neg R \vert E,\neg S)\mathsf{P}(E \vert \neg S)} \end{align}
+\begin{align}
 & = \frac{0 (1-e) +  le}
-{(1-RMP)(1-e) + le} \\
+{(1-RMP)(1-e) + le} \end{align}
+\begin{align}
 & = \frac{le}
 {1- RMP - e + eRMP + le} = \frac{le}{1-RMP + e(l + RMP -1)}\\
 & = \frac{e}{1 - RMP + eRMP} = \frac{e}{1+(e-1)RMP}
