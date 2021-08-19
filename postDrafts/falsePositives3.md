@@ -13,6 +13,34 @@ Moreover, such errors are not easy to detect. Since DNA evidence carries so much
 
 DNA identification is to some extent prone to errors which are not measured by the random match probability, and no serious attempts to systematically quantify error rates in DNA testing have been made. Anecdotal reports about false matches suggest that errors take place more often than RMP would entail, but how often we should expect them remains unclear (Thompson, 2013). Regular proficiency tests used in accreddited DNA laboratories involve comparison of samples from known sources, but they are criticized for being unrealistically easy (yet, it happens that analysts fail them). Sometimes, corrective action files are made available, and then they aren't too impressive. For instance, the Santa Clara County district attorney's crime laboratory between 2003 and 2007 caught 14 instances of evidence cross-contamination with staff DNA, three of contamination by unknown person, and six of DNA contamination from other samples, three cases of DNA sample switch, one mistake in which the analyst reported an incorrect result, and three errors in the computation of the statistics to be reported. Of course, these are errors that were caught, and so one might argue that they show that labs are pretty good at catching their own errors. This, however, is an optimistic intepretation. These errors have been discovered due to unusual circumstances that led to the double-checking of the results. These circumstances, however, do not normally arise. It is not always the case that when a mistake is made the result implicates a staff member or an unknown person who was too young at the time of the crime to have committed it, for instance. Crucially, a match with a person whom the analyst might already know is a suspect is not an outcome that would raise an eyebrow and lead to a double-check.
 
+``` r
+rmp9 <- 10e-9
+rmp3 <- 10e-3
+fpp <- seq(0,0.05, by = 0.001)
+
+lr9 <- 1/(rmp9 + (fpp * (1-rmp9)))
+lr3 <- 1/(rmp3 + (fpp * (1-rmp3)))
+
+
+fppTable <- data.frame(fpp,   lr9,  lr3, ref = rep(16.8, length(fpp)))
+
+library(tidyr)
+fppTableLong <- gather(fppTable,line,value,c(lr9,lr3,ref), factor_key=TRUE)
+
+
+ggplot(fppTableLong, aes(x=fpp,y=value, lty = line))+ geom_line()+ylim(c(0,400))+
+  theme_tufte()+ylim(c(0,400))+
+  ylab("Likelihood ratio")+
+  xlab("False positive probability")+
+  scale_linetype_manual(values = c(1,2,3),labels = c(expression(paste("RMP=",10^{-9})),expression(paste("RMP=",10^{-3})),"reference at 16.8"))+
+  ggtitle("Impact of false positive probability on likelihood ratio")+ 
+  theme(legend.position = c(0.85,.7))+ labs(lty = "RMP") 
+```
+
+<img src="https://rfl-urbaniak.github.io/images/fig-fpplr-1.png" width="100%" style="display: block; margin: auto;" />
+
+We illustrate this impact for the range of FPP between 0 and 0.05, for two values of RMP: ![10^{-9}](https://latex.codecogs.com/png.latex?10%5E%7B-9%7D "10^{-9}") (often reported in the case of two single source samples over ten or more loci) and ![10{^-3}](https://latex.codecogs.com/png.latex?10%7B%5E-3%7D "10{^-3}") (sometimes obtained by means of less discriminating tests when the comparison involves a mixed sample). The upshot is that even a small increase in FPP can lower the likelihood ratio dramatically, which is yet another reason not to ignore FPP in DNA evidence evaluation. In our illustration, we look at two pieces of DNA evidence with the two RMP rates at ![1\*10^8](https://latex.codecogs.com/png.latex?1%2A10%5E8 "1*10^8") and ![100](https://latex.codecogs.com/png.latex?100 "100"), respectively. If the false positive probability reaches 0.02, they fall down to ![\\approx 49.99](https://latex.codecogs.com/png.latex?%5Capprox%2049.99 "\approx 49.99") and ![\\approx 33.55](https://latex.codecogs.com/png.latex?%5Capprox%2033.55 "\approx 33.55"), and they get fairly close to each other already at ![FPP=0.05](https://latex.codecogs.com/png.latex?FPP%3D0.05 "FPP=0.05"), where they are ![\\approx 20](https://latex.codecogs.com/png.latex?%5Capprox%2020 "\approx 20") and ![\\approx 16.8](https://latex.codecogs.com/png.latex?%5Capprox%2016.8 "\approx 16.8").
+
 Buckleton, J. S., Bright, J.-A., & Taylor, D. (2018). *Forensic dna evidence interpretation*. CRC press.
 
 Dror, I. E., & Hampikian, G. (2011). Subjectivity and bias in forensic DNA mixture interpretation. *Science & Justice*, *51*(4), 204–208. <https://doi.org/10.1016/j.scijus.2011.08.004>

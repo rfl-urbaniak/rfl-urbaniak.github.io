@@ -22,7 +22,7 @@ If the evidence supports $H$ more than $H'$, the ratio would be above one, and i
 Experts sometimes testify by offering the likelihood ratio as a measure of the strength of the evidence. An expert, for instance, may testify that the blood-staining on the jacket of the defendant is ten times more likely to be seen if the wearer of the jacket hit the victim (prosecutor's hypothesis) rather than if he did not (defense's hypothesis) (CGG Aitken, Roberts, & Jackson, 2010, p. 38). Experts are typically advised not to comment on the posterior odds given the evidence. As this formulation of the Bayes's theorem makes clear, an assessment of the posterior odds will require a judgment about the prior odds, and the latter lies beyond the competence of an expert. A prominent forensic scientist recommends that experts \`not trespass on the province of the jury by commenting directly on the accused's guilt or innocence, and should generally confine their testimony to presenting the likelihood of their evidence under competing propositions' (CGG Aitken et al., 2010, p. 42).
 
 
-Now, let us follow Colin Aitken, Taroni, & Thompson (2003) in investigating its impact on the likelihood ratio of the DNA match. We just add a bit more details to the derivation they present for the sake of clarity. For simplicity we stil assume that the false negative probability is 0, that is, that if the match is real, it will be reported with certainty. We abbreviate:
+Now, let us follow Colin Aitken, Taroni, & Thompson (2003) in investigating its impact on the likelihood ratio of the DNA match. We just add a bit more details to the derivation they present for the sake of clarity. For simplicity, we still assume that the false negative probability is 0, that is, that if the match is real, it will be reported with certainty. We abbreviate:
 
 
 | $S$ | The specimen comes from the suspect. |
@@ -126,7 +126,31 @@ Once we abbreviate $\mathsf{P}(M\vert \neg S)$ as RMP, $\mathsf{P}(R \vert \neg 
 
 
 
-Now, let us illustrate this impact for the range of FPP between 0 and 0.05, for two values of RMP: $10^{-9}$ (often reported in the case of two single source samples over ten or more loci) and $10{^-3}$ (sometimes obtained by means of less discriminating tests when the comparison involves a mixed sample).
+We now illustrate this impact for the range of FPP between 0 and 0.05, for two values of RMP: $10^{-9}$ (often reported in the case of two single-source samples over ten or more loci) and $10{^-3}$ (sometimes obtained by means of less discriminating tests when the comparison involves a mixed sample). The upshot is that even a small increase in FPP can lower the likelihood ratio dramatically, which is yet another reason not to ignore FPP in DNA evidence evaluation. In our illustration, we look at two pieces of DNA evidence with the two RMP rates at  $1*10^8$  and $100$, respectively. If the false positive probability reaches 0.02, they fall down to $\approx 49.99$ and $\approx 33.55$, and they get fairly close to each other already at $FPP=0.05$, where they are  $\approx 20$ and   $\approx 16.8$.
+
+``` r
+rmp9 <- 10e-9
+rmp3 <- 10e-3
+fpp <- seq(0,0.05, by = 0.001)
+
+lr9 <- 1/(rmp9 + (fpp * (1-rmp9)))
+lr3 <- 1/(rmp3 + (fpp * (1-rmp3)))
+
+
+fppTable <- data.frame(fpp,   lr9,  lr3, ref = rep(16.8, length(fpp)))
+
+library(tidyr)
+fppTableLong <- gather(fppTable,line,value,c(lr9,lr3,ref), factor_key=TRUE)
+
+
+ggplot(fppTableLong, aes(x=fpp,y=value, lty = line))+ geom_line()+ylim(c(0,400))+
+  theme_tufte()+ylim(c(0,400))+
+  ylab("Likelihood ratio")+
+  xlab("False positive probability")+
+  scale_linetype_manual(values = c(1,2,3),labels = c(expression(paste("RMP=",10^{-9})),expression(paste("RMP=",10^{-3})),"reference at 16.8"))+
+  ggtitle("Impact of false positive probability on likelihood ratio")+
+  theme(legend.position = c(0.85,.7))+ labs(lty = "RMP")
+```
 
 
 <img src="https://rfl-urbaniak.github.io/images/fig-fpplr-1.png" width="100%" style="display: block; margin: auto;" />
