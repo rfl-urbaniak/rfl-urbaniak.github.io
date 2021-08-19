@@ -26,8 +26,8 @@ Now, the likelihood ratio calculations, assuming $l = 1$, go as follows:
 & = \frac{e}{1 - RMP + eRMP} = \frac{e}{1+(e-1)RMP}
 \end{align}
 
-If the error rate is 0, then the numerator is 0 and so is the \textsf{LR}, as it should. In such a case, the evidence is completely exculpatory, the posterior probability that the suspect is the source will be also 0. If the error rate is not 0, the numerator simply is the probability of error, and the numerator takes values between $1-RMP$ and $1$, depending on the value of $e$.
-Quite crucially, 1 in the denominator is decreased by $(1-e)RMP$, which with usually very low RMP in the case of DNA evidence is a very small change as compared to one, so the denominator stays very close to 1 even if $e$ is very high, and the \textsf{LR} effectively simply is $\approx e/1 = e$. The lines in the figure below, strictly speaking, do not overlap, but the difference between them (with $RMP$ being fairly low) is negligible.
+If the error rate is 0, then the numerator is 0 and so is the LR, as it should. In such a case, the evidence is completely exculpatory, the posterior probability that the suspect is the source will be also 0. If the error rate is not 0, the numerator simply is the probability of error, and the numerator takes values between $1-RMP$ and $1$, depending on the value of $e$.
+Quite crucially, 1 in the denominator is decreased by $(1-e)RMP$, which with usually very low RMP in the case of DNA evidence is a very small change as compared to one, so the denominator stays very close to 1 even if $e$ is very high, and the LR effectively simply is $\approx e/1 = e$. The lines in the figure below, strictly speaking, do not overlap, but the difference between them (with $RMP$ being fairly low) is negligible.
 
 
 ``` r
