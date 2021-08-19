@@ -21,7 +21,8 @@ Now, the likelihood ratio calculations, assuming $l = 1$, go as follows:
 {(1-RMP)(1-e) + le} \end{align}
 \begin{align}
 & = \frac{le}
-{1- RMP - e + eRMP + le} = \frac{le}{1-RMP + e(l + RMP -1)}\\
+{1- RMP - e + eRMP + le} = \frac{le}{1-RMP + e(l + RMP -1)}\end{align}
+\begin{align}
 & = \frac{e}{1 - RMP + eRMP} = \frac{e}{1+(e-1)RMP}
 \end{align}
 
