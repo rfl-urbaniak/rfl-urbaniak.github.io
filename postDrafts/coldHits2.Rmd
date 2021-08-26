@@ -1,0 +1,34 @@
+---
+layout: page
+title: False positives
+output:
+  #  md_document:
+  github_document:
+    pandoc_args: --mathjax
+#    variant: markdown_github
+  preserve_yaml: true
+bibliography: [../references/referencesMRbook.bib]
+csl: [../references/apa-6th-edition.csl]
+---
+
+```{r , echo = FALSE, eval = TRUE}
+#knitr::opts_knit$set(base.dir = "/home/rafal/L2/L2projects/backtesting",
+knitr::opts_knit$set(base.dir = "/home/rafal/UG/UGprojects/rfl-urbaniak.github.io",
+base.url = "https://rfl-urbaniak.github.io/")
+knitr::opts_chunk$set(fig.path = "images/")
+library(ggplot2)
+library(ggthemes)
+```
+
+
+ We will start with the coin analogy.  It is in fact unclear how the analogy with coin tossing translates to cold-hit cases. Searching a larger database no doubt increases the probability of finding a match at some point, but is the increase as fast as the Arizona Department of Public Safety examples and the coin analogy suggest? 
+Quite crucially, following [@donnelly1999DNADatabaseSearches] we need to pay attention to what hypotheses are tested, what probabilistic methods the context recommends,  and what exactly the evidence we obtained is. For instance, one hypothesis of 
+
+
+\vspace{1mm}
+\begin{tabular}{lp{8cm}}
+(General match hypothesis) &
+At least one of the profiles in the database of size $n$ 
+matches the crime sample.
+\end{tabular}
+\vspace{1mm}
