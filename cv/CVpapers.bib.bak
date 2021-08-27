@@ -8830,17 +8830,18 @@ it. Then I show that Ketland\textquoteright{}s argument can be defused in a simi
 	Volume = {30},
 	Year = {2018}}
 
-@article{Urbaniak2017Narration-in-ju,
-	Author = {Urbaniak, Rafal},
-	Date-Added = {2020-03-08 13:20:13 +0100},
-	Date-Modified = {2020-03-08 13:20:13 +0100},
-	Doi = {10.1007/s10506-018-9219-z},
-	Journal = {Artificial Intelligence and Law},
-	Note = {[\url{DOI: 10.1007/s10506-018-9219-z}]},
-	Pages = {1--32},
-	Title = {Narration in judiciary fact-finding: a probabilistic explication},
-	Year = {2018},
-	Bdsk-Url-1 = {https://doi.org/10.1007/s10506-018-9219-z}}
+@Article{Urbaniak2017Narration-in-ju,
+  author        = {Urbaniak, Rafal},
+  title         = {Narration in judiciary fact-finding: a probabilistic explication},
+  journal       = {Artificial Intelligence and Law},
+  year          = {2018},
+  pages         = {1--32},
+  note          = {[DOI: 10.1007/s10506-018-9219-z]},
+  doi           = {10.1007/s10506-018-9219-z},
+  bdsk-url-1    = {https://doi.org/10.1007/s10506-018-9219-z},
+  date-added    = {2020-03-08 13:20:13 +0100},
+  date-modified = {2020-03-08 13:20:13 +0100},
+}
 
 @article{Urbaniak2017Many-valued-log,
 	Author = {Urbaniak, Rafal and Pawlowski, Pawel},
@@ -19493,7 +19494,7 @@ and all mathematicians sometimes falter because their intuitive, ...},
   note    = {[accepted and forthcoming]},
 }
 
-@Article{Urbaniak2020RiskBased,
+@Article{Urbaniak2020Decisiona,
   author        = {Urbaniak, Rafal and Kowalewska, Alicja and Janda, Pavel and Dziurosz-Serafinowicz, Patryk},
   title         = {{Decision-theoretic and risk-based approaches to naked statistical evidence: some consequences and challenges}},
   journal       = {Law, Probability and Risk},
@@ -19509,7 +19510,7 @@ and all mathematicians sometimes falter because their intuitive, ...},
   date-modified = {2020-03-08 13:20:13 +0100},
 }
 
-@Article{Urbaniak2020Decision,
+@Article{Urbaniak2020Decisionb,
   author        = {Urbaniak, Rafal and Kowalewska, Alicja and Janda, Pavel and {Dziurosz-Serafinowicz}, Patryk},
   title         = {Decision-Theoretic and Risk-Based Approaches to Naked Statistical Evidence: Some Consequences and Challenges},
   journal       = {Law, Probability and Risk},
@@ -19560,6 +19561,18 @@ and all mathematicians sometimes falter because their intuitive, ...},
   edition      = {{F}all 2021},
   publisher    = {Metaphysics Research Lab, Stanford University},
   howpublished = {\url{https://plato.stanford.edu/archives/fall2021/entries/legal-probabilism/}},
+}
+
+@Article{Urbaniak2022personal,
+  author    = {Rafal Urbaniak and Micha{\l} Ptaszy{\'{n}}ski and Patrycja Tempska and Gniewosz Leliwa and Maciej Brochocki and Micha{\l} Wroczy{\'{n}}ski},
+  title     = {Personal attacks decrease user activity in social networking platforms},
+  journal   = {Computers in Human Behavior},
+  year      = {2022},
+  volume    = {126},
+  month     = jan,
+  note      = {[DOI: 10.1016/j.chb.2021.106972]},
+  doi       = {https://doi.org/10.1016/j.chb.2021.106972},
+  publisher = {Elsevier {BV}},
 }
 
 @Comment{jabref-meta: databaseType:biblatex;}
