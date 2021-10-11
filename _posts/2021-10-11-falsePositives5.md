@@ -24,3 +24,24 @@ denominator stays very close to 1 even if *e* is very high, and the
 effectively simply is $\\approx \\nicefrac{e}{1} = e$. The lines in
 Figure , strictly speaking, do not overlap, but the difference between
 them (with *R**M**P* being fairly low) is negligible.
+
+
+``` r
+rmp9 <- 10e-16
+rmp3 <- 10e-3
+fnp <- seq(0,0.5, by = 0.001)
+
+lr9n <- fnp/(1 + ((fnp -1) * rmp9))
+lr3n <- fnp/(1 + ((fnp -1) * rmp3))
+
+fnpTable <- data.frame(fnp,   lr9n,  lr3n)
+
+library(tidyr)
+fnpTableLong <- gather(fnpTable,line,value,c(lr9n,lr3n), factor_key=TRUE)
+
+
+ggplot(fnpTableLong, aes(x=fnp,y=value, color = line))+  geom_line()+theme_tufte()+ylab("Likelihood ratio")+xlab("False negative probability") +scale_color_manual(values = c(1,2),labels =
+              c(expression(paste("RMP=",10^{-16})),expression(paste("RMP=",10^{-3}))))+ggtitle("Impact of false negative probability on likelihood ratio")+ theme(legend.position = c(0.9,.7))+ylim(c(0,0.5))+ labs(color = "RMP")
+```
+
+<img src="https://rfl-urbaniak.github.io/images/fig-fnplr-1.png" width="100%" style="display: block; margin: auto;" />
