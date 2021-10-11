@@ -5,7 +5,7 @@ In a few recent posts we discussed the error probability for false
 positives in DNA evidence evaluation. Now, let’s think about the error
 probability for false negatives and its impact on the value of
 exculpatory DNA evidence. Consider the probability of no match being
-reported if an error has been made, anaologus to *k* above: Now, the
+reported if an error has been made, analogous to *k* above: Now, the
 likelihood ratio calculations, assuming *l* = 1, go as follows:
 
 If the error rate is 0, then the numerator is 0 and so is the , as it

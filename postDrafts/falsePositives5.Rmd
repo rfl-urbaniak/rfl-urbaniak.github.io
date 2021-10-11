@@ -21,7 +21,7 @@ library(ggthemes)
 ```
 
 
-In a few recent posts we discussed the error probability for false positives in DNA evidence evaluation. Now, let's think about the error probability for false negatives and its impact on the value of exculpatory DNA evidence.   Consider the probability of no match being reported if an error has been made, anaologus to $k$ above:
+In a few recent posts we discussed the error probability for false positives in DNA evidence evaluation. Now, let's think about the error probability for false negatives and its impact on the value of exculpatory DNA evidence.   Consider the probability of no match being reported if an error has been made, analogous to $k$ above:
 \begin{align}
 l & = \pr{\n R \vert E, S} = \pr{\n R \vert E, \n S} = \pr{\n R\vert E}
 \end{align}
