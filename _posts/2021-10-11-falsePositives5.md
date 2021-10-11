@@ -15,9 +15,7 @@ reported if an error has been made, analogus to *k* in the previous calculations
 l  = \mathsf{P}(\neg R \vert E, S) = \mathsf{P}(\neg R \vert E, \neg S) = \mathsf{P}(\neg R\vert E)
 \end{align}
 
-\begin{align}
-e  = \mathsf{P}(E) = \mathsf{P}(E \vert S) = \mathsf{P}E \vert \neg S)
-\end{align}
+
 
  Now, the
 likelihood ratio calculations, assuming *l* = 1, go as follows:
@@ -45,7 +43,7 @@ depending on the value of *e*. Quite crucially, 1 in the denominator is
 decreased by (1−*e*)*R**M**P*, which with usually very low RMP in the
 case of DNA evidence is a very small change as compared to one, so the
 denominator stays very close to 1 even if *e* is very high, and the
-effectively simply is $\\approx \\nicefrac{e}{1} = e$. The lines in
+effectively simply is $\\approx \\frac{e}{1} = e$. The lines in
 Figure , strictly speaking, do not overlap, but the difference between
 them (with *R**M**P* being fairly low) is negligible.
 
@@ -81,7 +79,7 @@ probabilities are the same.
 
 
 
-Some conceptual symmetry can be regained though. Suppose $RMP$ is really low as compared to $FPP$ and let's ignore it in our approximation. Then, the likelihood ratio of the incriminating evidence becomes $\nicefrac{1}{FPP}$ and the likelihood ratio of exculpatory evidence becomes $\nicefrac{FNP}{1}$. However, the change rate of these differ. While $\nicefrac{d}{dx}(\nicefrac{1}{x}) = \nicefrac{d}{dx} (x^{-1}) = - \nicefrac{1}{x^2}$, $\nicefrac{d}{dx}(\nicefrac{x}{1})=1$, and the derivatives look quite different.
+Some conceptual symmetry can be regained though. Suppose $RMP$ is really low as compared to $FPP$ and let's ignore it in our approximation. Then, the likelihood ratio of the incriminating evidence becomes $\frac{1}{FPP}$ and the likelihood ratio of exculpatory evidence becomes $\frac{FNP}{1}$. However, the change rate of these differ. While $\frac{d}{dx}(\frac{1}{x}) = \frac{d}{dx} (x^{-1}) = - \frac{1}{x^2}$, $\frac{d}{dx}(\frac{x}{1})=1$, and the derivatives look quite different.
 
 
 
