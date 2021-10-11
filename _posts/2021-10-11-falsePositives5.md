@@ -22,7 +22,8 @@ likelihood ratio calculations, assuming *l* = 1, go as follows:
 
 \begin{align}
 \mathsf{LR}(\neg R, S, \neg S)  = \frac{\mathsf{P}(\neg R \vert S)}{\mathsf{P}(\neg R \vert \neg S)} \\
- 
+= \frac{\mathsf{P}(\neg R \vert \neg E, S)\mathsf{P}(\neg E \vert S) + \mathsf{P}(\neg R \vert E, S)\mathsf{P}(E \vert S)}
+{\mathsf{P}(\neg R \vert \neg E, \neg S)\mathsf{P}(\neg E \vert \neg S) + \mathsf{P}(\neg R \vert E,\neg S)\mathsf{P}(E \vert \neg S)} 
 \end{align}
 
 
