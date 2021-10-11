@@ -12,7 +12,7 @@ exculpatory DNA evidence. Consider the probability of no match being
 reported if an error has been made, analogus to *k* in the previous calculations:
 
 \begin{align}
-l & = \mathsf{P}()\neg R \vert E, S} = \mathsf{P}(\neg R \vert E, \neg S) = \mathsf{P}(\neg R\vert E)
+l & = \mathsf{P}(\neg R \vert E, S) = \mathsf{P}(\neg R \vert E, \neg S) = \mathsf{P}(\neg R\vert E)
 \end{align}
 
 
