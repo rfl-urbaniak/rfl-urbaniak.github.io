@@ -69,3 +69,12 @@ ggplot(fnpTableLong, aes(x=fnp,y=value, color = line))+  geom_line()+theme_tufte
 ```
 
 <img src="https://rfl-urbaniak.github.io/images/fig-fnplr-1.png" width="100%" style="display: block; margin: auto;" />
+
+
+Interestingly, the situation is not symmetric when we compare FPP to
+FNP. Recall from the previous posts that with FPP, the likelihood ratio
+is 50 when *e* = 0.01 for RMP = 10<sup>−3</sup>, while for the same *e*
+and RMP it is 0.01 for FNP, an hundredfold decrease. This illustrates
+that the exculpatory value of DNA evidence is higher than its
+incriminating value, even if the error rates and random match
+probabilities are the same.
