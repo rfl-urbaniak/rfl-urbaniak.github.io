@@ -12,22 +12,25 @@ exculpatory DNA evidence. Consider the probability of no match being
 reported if an error has been made, analogus to *k* in the previous calculations:
 
 \begin{align}
-l & = \mathsf{P}(\neg R \vert E, S) = \mathsf{P}(\neg R \vert E, \neg S) = \mathsf{P}(\neg R\vert E)
+l  = \mathsf{P}(\neg R \vert E, S) = \mathsf{P}(\neg R \vert E, \neg S) = \mathsf{P}(\neg R\vert E)
 \end{align}
 
+\begin{align}
+e  = \mathsf{P}(E) = \mathsf{P}(E \vert S) = \mathsf{P}E \vert \neg S)
+\end{align}
 
  Now, the
 likelihood ratio calculations, assuming *l* = 1, go as follows:
 
 \begin{align}
-\mathsf{LR}(\neg R, S, \neg S) & = \frac{\mathsf{P}(\neg R \vert S)}{\mathsf{P}()\n R \vert \n S)} \\
-& = \frac{\mathsf{P}(\neg R \vert \neg E, S)\mathsf{P}(\neg E \vert S) + \mathsf{P}(\neg R \vert E, S}\mathsf{P}(E \vert S)}
+\mathsf{LR}(\neg R, S, \neg S)  = \frac{\mathsf{P}(\neg R \vert S)}{\mathsf{P}()\n R \vert \n S)} \\
+ = \frac{\mathsf{P}(\neg R \vert \neg E, S)\mathsf{P}(\neg E \vert S) + \mathsf{P}(\neg R \vert E, S}\mathsf{P}(E \vert S)}
 {\mathsf{P}(\neg R \vert \neg E, \neg S}\mathsf{P}(\neg E \vert \neg S} + \mathsf{P}(\neg R \vert E,\neg S)\mathsf{P}(E \vert \neg S)} \\
-& = \frac{0 (1-e) +  le}
+ = \frac{0 (1-e) +  le}
 {(1-RMP)(1-e) + le} \\
-& = \frac{le}
+ = \frac{le}
 {1- RMP - e + eRMP + le} = \frac{le}{1-RMP + e(l + RMP -1)}\\
-& = \frac{e}{1 - RMP + eRMP} = \frac{e}{1+(e-1)RMP}
+ = \frac{e}{1 - RMP + eRMP} = \frac{e}{1+(e-1)RMP}
 \end{align}
 
 
