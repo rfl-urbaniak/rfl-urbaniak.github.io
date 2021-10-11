@@ -93,3 +93,6 @@ ggplot()+geom_line(aes(x=x,y=dfp, color = "incriminating"))+geom_line(aes(x=x,y=
 ```
 
 <img src="https://rfl-urbaniak.github.io/images/unnamed-chunk-2-1.png" width="100%" style="display: block; margin: auto;" />
+
+
+The key lesson from this section is as follows. First, likelihood ratios are useful in the evaluation and comparison of the impact of positive an negative error rates: and it makes clear that this impact is not the same, contrary to what one may intuitively think. Second, the likelihood ratio analysis reveals that  even a seemingly small error rate in a sense trumps random match probability: if you think there are good reasons to worry about random matches, the analysis shows that there  are much better reasons to worry about error rates. While in fact error rates have not been properly studied, the above application of likelihood ratio to investigate the potential impact of hypothetical error rates is still useful in guiding further research, as it clearly suggests that error rates may have serious impact on the value of various types of evidence, and so require attention.
