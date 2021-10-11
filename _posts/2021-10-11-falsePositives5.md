@@ -19,7 +19,16 @@ l & = \pr{\n R \vert E, S} = \pr{\n R \vert E, \n S} = \pr{\n R\vert E}
  Now, the
 likelihood ratio calculations, assuming *l* = 1, go as follows:
 
-
+\begin{align}
+\mathsf{LR}(\n R, S, \n S) & = \frac{\pr{\n R \vert S}}{\pr{\n R \vert \n S}} \\
+& = \frac{\pr{\n R \vert \n E, S}\pr{\n E \vert S} + \pr{\n R \vert E, S}\pr{E \vert S}}
+{\pr{\n R \vert \n E, \n S}\pr{\n E \vert \n S} + \pr{\n R \vert E,\n S}\pr{E \vert \n S}} \\
+& = \frac{0 (1-e) +  le}
+{(1-RMP)(1-e) + le} \\
+& = \frac{le}
+{1- RMP - e + eRMP + le} = \frac{le}{1-RMP + e(l + RMP -1)}\\
+& = \frac{e}{1 - RMP + eRMP} = \frac{e}{1+(e-1)RMP}
+\end{align}
 
 
 
