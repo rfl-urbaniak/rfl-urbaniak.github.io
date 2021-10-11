@@ -20,9 +20,9 @@ l & = \mathsf{P}()\neg R \vert E, S} = \mathsf{P}()\neg R \vert E, \neg S) = \ma
 likelihood ratio calculations, assuming *l* = 1, go as follows:
 
 \begin{align}
-\mathsf{LR}(\n R, S, \n S) & = \frac{\pr{\n R \vert S}}{\pr{\n R \vert \n S}} \\
-& = \frac{\pr{\n R \vert \n E, S}\pr{\n E \vert S} + \pr{\n R \vert E, S}\pr{E \vert S}}
-{\pr{\n R \vert \n E, \n S}\pr{\n E \vert \n S} + \pr{\n R \vert E,\n S}\pr{E \vert \n S}} \\
+\mathsf{LR}(\neg R, S, \neg S) & = \frac{\mathsf{P}(\neg R \vert S)}{\mathsf{P}()\n R \vert \n S)} \\
+& = \frac{\mathsf{P}(\neg R \vert \neg E, S)\mathsf{P}(\neg E \vert S) + \mathsf{P}(\neg R \vert E, S}\mathsf{P}(E \vert S)}
+{\mathsf{P}(\neg R \vert \neg E, \neg S}\mathsf{P}(\neg E \vert \neg S} + \mathsf{P}(\neg R \vert E,\neg S)\mathsf{P}(E \vert \neg S)} \\
 & = \frac{0 (1-e) +  le}
 {(1-RMP)(1-e) + le} \\
 & = \frac{le}
