@@ -78,3 +78,20 @@ and RMP it is 0.01 for FNP, an hundredfold decrease. This illustrates
 that the exculpatory value of DNA evidence is higher than its
 incriminating value, even if the error rates and random match
 probabilities are the same.
+
+
+
+Some conceptual symmetry can be regained though. Suppose $RMP$ is really low as compared to $FPP$ and let's ignore it in our approximation. Then, the likelihood ratio of the incriminating evidence becomes $\nicefrac{1}{FPP}$ and the likelihood ratio of exculpatory evidence becomes $\nicefrac{FNP}{1}$. However, the change rate of these differ. While $\nicefrac{d}{dx}(\nicefrac{1}{x}) = \nicefrac{d}{dx} (x^{-1}) = - \nicefrac{1}{x^2}$, $\nicefrac{d}{dx}(\nicefrac{x}{1})=1$, and the derivatives look quite different.
+
+
+
+``` r
+x <- seq(0, 1, by = 0.01)
+dfn <- rep(1, length(x) )
+dfp <- -1/(x^2)
+
+ggplot()+geom_line(aes(x=x,y=dfp, color = "incriminating"))+geom_line(aes(x=x,y=dfn, color = "exculpatory"))+ylim(c(-10,2))+theme_tufte()+
+  theme(legend.position = c(0.8, 0.2), legend.title = element_blank())+ylab("likelihood ratio")+xlab("error rate")
+```
+
+<img src="https://rfl-urbaniak.github.io/images/unnamed-chunk-2-1.png" width="100%" style="display: block; margin: auto;" />
