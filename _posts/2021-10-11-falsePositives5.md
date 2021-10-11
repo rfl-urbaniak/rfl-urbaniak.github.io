@@ -82,7 +82,6 @@ probabilities are the same.
 Some conceptual symmetry can be regained though. Suppose $RMP$ is really low as compared to $FPP$ and let's ignore it in our approximation. Then, the likelihood ratio of the incriminating evidence becomes $\frac{1}{FPP}$ and the likelihood ratio of exculpatory evidence becomes $\frac{FNP}{1}$. However, the change rate of these differ. While $\frac{d}{dx}(\frac{1}{x}) = \frac{d}{dx} (x^{-1}) = - \frac{1}{x^2}$, $\frac{d}{dx}(\frac{x}{1})=1$, and the derivatives look quite different.
 
 
-
 ``` r
 x <- seq(0, 1, by = 0.01)
 dfn <- rep(1, length(x) )
