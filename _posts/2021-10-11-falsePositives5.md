@@ -38,14 +38,14 @@ If the error rate is 0, then the numerator is 0 and so is the , as it
 should. In such a case, the evidence is completely exculpatory, the
 posterior probability that the suspect is the source will be also 0. If
 the error rate is not 0, the numerator simply is the probability of
-error, and the numerator takes values between 1 − *R**M**P* and 1,
+error, and the numerator takes values between 1 − *RMP* and 1,
 depending on the value of *e*. Quite crucially, 1 in the denominator is
-decreased by (1−*e*)*R**M**P*, which with usually very low RMP in the
+decreased by (1−*e*)*RMP*, which with usually very low RMP in the
 case of DNA evidence is a very small change as compared to one, so the
 denominator stays very close to 1 even if *e* is very high, and the
 effectively simply is $\\approx \\frac{e}{1} = e$. The lines in
 Figure , strictly speaking, do not overlap, but the difference between
-them (with *R**M**P* being fairly low) is negligible.
+them (with *RMP* being fairly low) is negligible.
 
 
 ``` r
