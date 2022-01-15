@@ -6,6 +6,7 @@ Micha{\l} Bilewicz, Patrycja Tempska, Gniewosz Leliwa, Maria Dowgia{\l}{\l}o,
 \newblock Artificial intelligence against hate: Intervention reducing verbal
   aggression in the social network environment.
 \newblock {\em Aggressive Behavior}, January 2021.
+\newblock [DOI: 10.1002/ab.21948].
 
 \bibitem{CieslinskiUrbaniak2013}
 Cezary Cie{\'s}li{\'n}ski and Rafal Urbaniak.
@@ -18,6 +19,12 @@ Micha{\l}~Tomasz Godziszewski and Rafal Urbaniak.
 \newblock Infinite liar in a (modal) finitistic setting.
 \newblock In {\em Logic and Its Applications}, pages 18--29. Springer Berlin
   Heidelberg, 2019.
+
+\bibitem{Urbaniak2021informal}
+Pawel Pawlowski and Rafal Urbaniak.
+\newblock Informal provability, first-order {BAT} logic and first steps towards
+  a formal theory of informal provability.
+\newblock {\em Logic and Logical Philosophy}, pages 1--27, November 2021.
 
 \bibitem{Stefaniak2019}
 Ma{\l}gorzata Stefaniak and Rafal Urbaniak.
@@ -154,7 +161,7 @@ Rafal Urbaniak.
 Rafal Urbaniak.
 \newblock Narration in judiciary fact-finding: a probabilistic explication.
 \newblock {\em Artificial Intelligence and Law}, pages 1--32, 2018.
-\newblock [\url{DOI: 10.1007/s10506-018-9219-z}].
+\newblock [DOI: 10.1007/s10506-018-9219-z].
 
 \bibitem{Urbaniak2019reals}
 Rafal Urbaniak.
@@ -194,7 +201,7 @@ Rafal Urbaniak and Micha{\l}~Tomasz Godziszewski.
 Rafal Urbaniak and {Micha\l\, Tomasz} Godziszewski.
 \newblock Modal quantifiers, potential infinity, and {Y}ablo sequences.
 \newblock {\em Review of Symbolic Logic}, 2021.
-\newblock [accepted \& forthcoming].
+\newblock [accepted and forthcoming].
 
 \bibitem{Urbaniak2011b}
 Rafal Urbaniak and {K. Severi} H{\"a}m{\"a}ri.
@@ -214,7 +221,6 @@ Rafal Urbaniak, Alicja Kowalewska, Pavel Janda, and Patryk
 \newblock {Decision-theoretic and risk-based approaches to naked statistical
   evidence: some consequences and challenges}.
 \newblock {\em Law, Probability and Risk}, 02 2020.
-\newblock mgaa001.
 
 \bibitem{Urbaniak2017Challenging-Lew}
 Rafal Urbaniak and Bert Leuridan.
@@ -236,13 +242,6 @@ Rafal Urbaniak and Pawel Pawlowski.
   stra\-te\-gy.
 \newblock {\em Review of Symbolic Logic}, 2018.
 \newblock [\url{DOI: 10.1017/S1755020317000363}].
-
-\bibitem{Urbaniak2021Informal}
-Rafal Urbaniak and Pawel Pawlowski.
-\newblock Informal provability, first-order {BAT} logic and first steps towards
-  a formal theory of informal provability.
-\newblock {\em Logic and Logical Philosophy}, 2021.
-\newblock [accepted and forthcoming].
 
 \bibitem{Urbaniak2017The-Road-Less-T}
 Rafal Urbaniak and Gillman Payette, editors.

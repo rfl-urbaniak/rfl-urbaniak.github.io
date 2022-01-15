@@ -19539,17 +19539,10 @@ and all mathematicians sometimes falter because their intuitive, ...},
   journal   = {Aggressive Behavior},
   year      = {2021},
   month     = jan,
+  note      = {[DOI: 10.1002/ab.21948]},
   doi       = {10.1002/ab.21948},
   url       = {https://doi.org/10.1002/ab.21948},
   publisher = {Wiley},
-}
-
-@Article{Urbaniak2021Informal,
-  author  = {Rafal Urbaniak and Pawel Pawlowski},
-  title   = {Informal provability, first-order {BAT} logic and first steps towards a formal theory of informal provability},
-  journal = {Logic and Logical Philosophy},
-  year    = {2021},
-  note    = {[accepted and forthcoming]},
 }
 
 @InCollection{sep-legal-probabilism,
@@ -19573,6 +19566,18 @@ and all mathematicians sometimes falter because their intuitive, ...},
   note      = {[DOI: 10.1016/j.chb.2021.106972]},
   doi       = {https://doi.org/10.1016/j.chb.2021.106972},
   publisher = {Elsevier {BV}},
+}
+
+@Article{Urbaniak2021informal,
+  author    = {Pawel Pawlowski and Rafal Urbaniak},
+  title     = {Informal Provability, First-Order {BAT} Logic and First Steps Towards a Formal Theory of Informal Provability},
+  journal   = {Logic and Logical Philosophy},
+  year      = {2021},
+  month     = nov,
+  pages     = {1--27},
+  doi       = {10.12775/llp.2021.016},
+  url       = {https://doi.org/10.12775/llp.2021.016},
+  publisher = {Uniwersytet Mikolaja Kopernika/Nicolaus Copernicus University},
 }
 
 @Comment{jabref-meta: databaseType:biblatex;}

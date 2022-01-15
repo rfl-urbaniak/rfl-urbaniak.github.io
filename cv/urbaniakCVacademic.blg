@@ -1,53 +1,53 @@
-This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
-Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+This is BibTeX, Version 0.99d (TeX Live 2021)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: urbaniakCVacademic.aux
 The style file: plain.bst
+Illegal, another \bibdata command---line 165 of file urbaniakCVacademic.aux
+ : \bibdata
+ :         {CVpapers}
+I'm skipping whatever remains of this command
 Database file #1: CVpapers.bib
 Warning--string name "july" is undefined
 --line 7653 of file CVpapers.bib
-Repeated entry---line 19495 of file CVpapers.bib
- : @article{Urbaniak2020RiskBased
- :                               ,
-I'm skipping whatever remains of this entry
 You've used 43 entries,
             2118 wiz_defined-function locations,
-            775 strings with 11586 characters,
-and the built_in function-call counts, 14197 in all, are:
-= -- 1431
+            776 strings with 11637 characters,
+and the built_in function-call counts, 14307 in all, are:
+= -- 1444
 > -- 520
-< -- 14
+< -- 15
 + -- 202
 - -- 156
-* -- 860
-:= -- 2332
-add.period$ -- 149
+* -- 870
+:= -- 2341
+add.period$ -- 148
 call.type$ -- 43
 change.case$ -- 196
 chr.to.int$ -- 0
 cite$ -- 43
-duplicate$ -- 621
-empty$ -- 1202
+duplicate$ -- 627
+empty$ -- 1212
 format.name$ -- 156
-if$ -- 3103
+if$ -- 3132
 int.to.chr$ -- 0
 int.to.str$ -- 43
 missing$ -- 45
-newline$ -- 229
+newline$ -- 228
 num.names$ -- 105
-pop$ -- 189
+pop$ -- 190
 preamble$ -- 1
 purify$ -- 155
 quote$ -- 0
-skip$ -- 455
+skip$ -- 461
 stack$ -- 0
-substring$ -- 918
-swap$ -- 158
-text.length$ -- 14
+substring$ -- 937
+swap$ -- 163
+text.length$ -- 15
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 166
 warning$ -- 0
-while$ -- 148
+while$ -- 151
 width$ -- 45
-write$ -- 498
+write$ -- 497
 (There was 1 error message)
