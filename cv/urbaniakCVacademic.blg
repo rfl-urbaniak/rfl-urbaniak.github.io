@@ -2,52 +2,52 @@ This is BibTeX, Version 0.99d (TeX Live 2021)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: urbaniakCVacademic.aux
 The style file: plain.bst
-Illegal, another \bibdata command---line 165 of file urbaniakCVacademic.aux
+Illegal, another \bibdata command---line 171 of file urbaniakCVacademic.aux
  : \bibdata
  :         {CVpapers}
 I'm skipping whatever remains of this command
 Database file #1: CVpapers.bib
 Warning--string name "july" is undefined
 --line 7653 of file CVpapers.bib
-You've used 43 entries,
+You've used 45 entries,
             2118 wiz_defined-function locations,
-            776 strings with 11637 characters,
-and the built_in function-call counts, 14307 in all, are:
-= -- 1444
-> -- 520
+            790 strings with 12102 characters,
+and the built_in function-call counts, 14935 in all, are:
+= -- 1503
+> -- 566
 < -- 15
-+ -- 202
-- -- 156
-* -- 870
-:= -- 2341
-add.period$ -- 148
-call.type$ -- 43
-change.case$ -- 196
++ -- 220
+- -- 172
+* -- 914
+:= -- 2460
+add.period$ -- 156
+call.type$ -- 45
+change.case$ -- 210
 chr.to.int$ -- 0
-cite$ -- 43
-duplicate$ -- 627
-empty$ -- 1212
-format.name$ -- 156
-if$ -- 3132
+cite$ -- 45
+duplicate$ -- 647
+empty$ -- 1246
+format.name$ -- 172
+if$ -- 3253
 int.to.chr$ -- 0
-int.to.str$ -- 43
-missing$ -- 45
-newline$ -- 228
-num.names$ -- 105
-pop$ -- 190
+int.to.str$ -- 45
+missing$ -- 47
+newline$ -- 240
+num.names$ -- 109
+pop$ -- 200
 preamble$ -- 1
-purify$ -- 155
+purify$ -- 167
 quote$ -- 0
-skip$ -- 461
+skip$ -- 477
 stack$ -- 0
-substring$ -- 937
-swap$ -- 163
+substring$ -- 947
+swap$ -- 165
 text.length$ -- 15
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 166
+type$ -- 174
 warning$ -- 0
-while$ -- 151
-width$ -- 45
-write$ -- 497
+while$ -- 155
+width$ -- 47
+write$ -- 522
 (There was 1 error message)
