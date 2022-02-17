@@ -10,6 +10,8 @@ title:  About
 
 - Rafal's [short cv](https://github.com/rfl-urbaniak/rfl-urbaniak.github.io/raw/main/cv/urbaniakCVshort.pdf).
 
+- A sample of Rafal's [programming projects](https://rfl-urbaniak.github.io/menu/projects.html).
+
 - Rafal's [research papers](https://ug.academia.edu/Rafa%C5%82Urbaniak) and [full cv](https://github.com/rfl-urbaniak/rfl-urbaniak.github.io/raw/main/cv/urbaniakCVjoint.pdf).
 
 - [LoPSE](http://lopsegdansk.blogspot.com/p/lopse-team.html) research group at the  Chair of Logic, Philosophy of Science and Epistemology in Gdansk coordinated by Rafal.
