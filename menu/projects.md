@@ -6,6 +6,18 @@ title: Projects
 * TOC
 {:toc}
 
+## Probabilistic coherence in Bayesian networks ([github](https://rfl-urbaniak.github.io/coherence/))
+
+`R` implemetantion of the main existing probabilistic coherence measures applied to Bayesian networks, together with one we developed with Alicja Kowalewska in "Measuring coherence in Bayesian networks" published in *AI & Law*.
+
+Coherence measures deployed:
+- Fitelson's
+- Douven-Meijs'
+- Olsson's
+- Shogenji's
+- Roche's
+- Kowalewska and Urbaniak's
+  
 
 ##  Legal Probabilism BNs with R ([github](https://rfl-urbaniak.github.io/LegalProbabilismBNs/))
 
