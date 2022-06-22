@@ -14,6 +14,9 @@ Without relying on any user reports, we use algorithmic detection and Bayesian s
 
 
 
+![Empirical overview](images/overviewPlot.jpg)
+
+
 ## Probabilistic coherence in Bayesian networks ([github](https://rfl-urbaniak.github.io/coherence/))
 
 `R` implemetantion of the main existing probabilistic coherence measures applied to Bayesian networks, together with one we developed with Alicja Kowalewska in "Measuring coherence in Bayesian networks" published in *AI & Law*.
