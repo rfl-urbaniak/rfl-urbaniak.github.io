@@ -85,14 +85,6 @@ Implementation in R of Monte Carlo methods for gauging uncertainty in algorithmi
 
 
 
-
-
-
-
-
-
-
-
 ##  Bayesian estimation of multi-class bias in word2vec embeddings
 
 
@@ -102,14 +94,6 @@ picture is not as clear as it initially might have seemed.
 DOCUMENTATION UNDER CONSTRUCTION
 
 
-
-## Probabilistic coherence measures over bayesian networks
-
-Algorithms for calculating main existing coherence measures over bayesian networks, with a new method essentially relying on the causal structure, implemented in R, building on bnlearn, with application to multiple counterexamples to earlier proposals.
-
-
-
-DOCUMENTATION UNDER CONSTRUCTION
 
 ## Long-term impact of personal attacks on Reddit user activity
 
