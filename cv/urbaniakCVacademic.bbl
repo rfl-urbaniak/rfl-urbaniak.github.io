@@ -20,11 +20,21 @@ Micha{\l}~Tomasz Godziszewski and Rafal Urbaniak.
 \newblock In {\em Logic and Its Applications}, pages 18--29. Springer Berlin
   Heidelberg, 2019.
 
+\bibitem{Kowalewska2022}
+Alicja Kowalewska and Rafal Urbaniak.
+\newblock Measuring coherence with bayesian networks.
+\newblock {\em Artificial Intelligence and Law}, 06 2022.
+
 \bibitem{Urbaniak2021informal}
 Pawel Pawlowski and Rafal Urbaniak.
 \newblock Informal provability, first-order {BAT} logic and first steps towards
   a formal theory of informal provability.
 \newblock {\em Logic and Logical Philosophy}, pages 1--27, November 2021.
+
+\bibitem{Pawlowski2023-PAWIPA-3}
+Pawel Pawlowski and Rafal Urbaniak.
+\newblock Informal provability and dialetheism.
+\newblock {\em Theoria}, 89(2):204--215, 2023.
 
 \bibitem{Stefaniak2019}
 Ma{\l}gorzata Stefaniak and Rafal Urbaniak.
