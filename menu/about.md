@@ -5,16 +5,15 @@ title:  About
 
 
 <img src="../images/rafalProfile.JPG" alt="Rafal" width="120" style="float: left; padding: 10px 15px 0px 0px;"/>
-  Rafal is a philosophy professor obsessed with data and in love with  <b> R</b>. He enjoys probabilistic (especially bayesian) thinking about issues that he is convinced matter a lot. These include  criminal evidence evaluation, the study of online aggression and its mitigation measures, measures of bias in natural language processing tools, the use of Monte Carlo methods to argue that standard backtesting methods in algorithmic trading are flawed, or imprecise probabilities in expert testimony.
+  Rafal Urbaniak is a research scientist at the [Basis Research Institute](https://www.basis.ai/), specializing in Bayesian methods and probabilistic programming. His past research spans criminal evidence evaluation, bias in natural language processing, and modeling online aggression through causal Bayesian reasoning. At Basis, he focuses on developing tools for causal explanation and applying them (1) to identify collaboration strategies in animal behavior and (2) to assist policy-making. Rafal holds a PhD in Logic and Philosophy of Mathematics from the University of Calgary, where he explored non-standard foundations of mathematics. He has held various academic positions, including a Postdoctoral Fellowship with the Research Foundation Flanders, a Visiting Fellowship at Trinity College Dublin, and a British Academy Visiting Fellowship at the University of Bristol.
 
 
 - Rafal's [short cv](https://github.com/rfl-urbaniak/rfl-urbaniak.github.io/raw/main/cv/urbaniakCVshort.pdf).
 
-- A sample of Rafal's [programming projects](https://rfl-urbaniak.github.io/menu/projects.html).
+- Some of of Rafal's [programming projects](https://rfl-urbaniak.github.io/menu/projects.html).
 
 - Rafal's [research papers](https://ug.academia.edu/Rafa%C5%82Urbaniak) and [full cv](https://github.com/rfl-urbaniak/rfl-urbaniak.github.io/raw/main/cv/urbaniakCVjoint.pdf).
 
-- [LoPSE](http://lopsegdansk.blogspot.com/p/lopse-team.html) research group at the  Chair of Logic, Philosophy of Science and Epistemology in Gdansk coordinated by Rafal.
 
 
 You can contact Rafal by dropping him a line at rfl.urbaniak@gmail.com
