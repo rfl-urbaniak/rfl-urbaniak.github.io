@@ -12,7 +12,7 @@ title:  About
 
 - Some of of Rafal's [programming projects](https://rfl-urbaniak.github.io/menu/projects.html).
 
-- Rafal's [research papers](https://ug.academia.edu/Rafa%C5%82Urbaniak) and [full cv](https://github.com/rfl-urbaniak/rfl-urbaniak.github.io/raw/main/cv/urbaniakCVjoint.pdf).
+- Rafal's [research papers](https://ug.academia.edu/Rafa%C5%82Urbaniak) and [full academic cv](https://github.com/rfl-urbaniak/rfl-urbaniak.github.io/raw/main/cv/urbaniakCVacademic.pdf).
 
 
 
