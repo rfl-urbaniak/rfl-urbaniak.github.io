@@ -7,9 +7,9 @@ disqus:
 google-ID: ''
 
 menu:
-- {name: 'Visualization', path: 'menu', url: 'visualization.html'}
-- {name: 'Criminology, path: 'menu', url: 'criminology.html'}
-- {name: 'Methodology', path: 'menu', url: 'methodology.html'}
+#- {name: 'Visualization', path: 'menu', url: 'visualization.html'}
+#- {name: 'Criminology', path: 'menu', url: 'criminology.html'}
+#- {name: 'Methodology', path: 'menu', url: 'methodology.html'}
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
